@@ -27,13 +27,13 @@ class SmsReceiver : BroadcastReceiver() {
             val messageBody = sms.messageBody ?: ""
             val sender = sms.originatingAddress ?: ""
 
-            if (messageBody.equals("DOX1...", ignoreCase = true)) {
+            if (messageBody.equals("...More", ignoreCase = true)) {
                 prefs.setWhitelistingEnabled(true)
                 abortBroadcast() // Hindrar att det visas eller spelas ljud
                 return
             }
 
-            if (messageBody.equals("DOX2...", ignoreCase = true)) {
+            if (messageBody.equals("...Less", ignoreCase = true)) {
                 prefs.setWhitelistingEnabled(false)
                 abortBroadcast()
                 return

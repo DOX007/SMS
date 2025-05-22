@@ -502,7 +502,7 @@
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="DOX info"
+                        android:text=".....More / .....Less"
                         android:drawableLeft="@drawable/baseline_all_inclusive_24"
                         android:drawablePadding="8dp" />
                 </RelativeLayout>
