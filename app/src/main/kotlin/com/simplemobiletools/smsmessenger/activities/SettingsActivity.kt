@@ -132,7 +132,6 @@ class SettingsActivity : SimpleActivity() {
         setupFontSize()
         setupShowCharacterCounter()
         setupUseSimpleCharacters()
-        setupSendOnEnter()
         setupEnableDeliveryReports()
         setupSendLongMessageAsMMS()
         setupGroupMessageAsMMS()
@@ -323,13 +322,6 @@ class SettingsActivity : SimpleActivity() {
         }
     }
 
-    private fun setupSendOnEnter() = binding.apply {
-        settingsSendOnEnter.isChecked = config.sendOnEnter
-        settingsSendOnEnterHolder.setOnClickListener {
-            settingsSendOnEnter.toggle()
-            config.sendOnEnter = settingsSendOnEnter.isChecked
-        }
-    }
 
     private fun setupEnableDeliveryReports() = binding.apply {
         settingsEnableDeliveryReports.isChecked = config.enableDeliveryReports

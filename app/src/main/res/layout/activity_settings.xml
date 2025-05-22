@@ -274,20 +274,7 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:id="@+id/settings_send_on_enter_holder"
-                style="@style/SettingsHolderCheckboxStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
-                <com.simplemobiletools.commons.views.MyAppCompatCheckbox
-                    android:id="@+id/settings_send_on_enter"
-                    style="@style/SettingsCheckboxStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/send_on_enter" />
-
-            </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/settings_disable_send_button_holder"
@@ -503,7 +490,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="...More / ...Less"
-                        android:drawableLeft="@drawable/baseline_all_inclusive_24"
                         android:drawablePadding="8dp" />
                 </RelativeLayout>
 

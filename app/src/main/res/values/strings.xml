@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="disable_send_button">Use larg font in text</string>
     <string name="app_name">Simple SMS Messenger</string>
     <string name="app_launcher_name">SMS Messenger</string>
     <string name="type_a_message">Type a message…</string>
@@ -98,7 +99,7 @@
     <string name="sender_only">Sender only</string>
     <string name="enable_delivery_reports">Enable delivery reports</string>
     <string name="use_simple_characters">Remove accents and diacritics at sending messages</string>
-    <string name="send_on_enter">Send message on pressing Enter</string>
+
     <string name="mms_file_size_limit">Resize sent MMS images</string>
     <string name="mms_file_size_limit_none">No limit</string>
     <string name="outgoing_messages">Outgoing messages</string>
