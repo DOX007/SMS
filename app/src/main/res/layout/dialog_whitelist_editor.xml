@@ -5,6 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <!-- Fält för rubrik/namn till Telegram-logg -->
+    <EditText
+        android:id="@+id/header_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rubrik till Telegram-logg (t.ex. Ditt namn)"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:layout_marginBottom="16dp"/>
+
     <LinearLayout
         android:id="@+id/whitelist_container"
         android:orientation="vertical"

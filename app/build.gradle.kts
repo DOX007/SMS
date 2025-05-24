@@ -55,7 +55,7 @@ android {
             applicationIdSuffix = ".debug"
         }
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -96,6 +96,7 @@ android {
 }
 
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation(libs.simple.mobile.tools.commons)
     implementation(libs.eventbus)
     implementation(libs.indicator.fast.scroll)
