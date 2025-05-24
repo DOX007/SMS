@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_thread_date_time.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_thread_date_time.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_main.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_vcard_viewer.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_vcard_viewer.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_attachment_document.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_attachment_document.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_vcard_contact.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_vcard_contact.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_thread.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_thread.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_select_text.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_select_text.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_delete_confirmation.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_delete_confirmation.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_remove_attachment_button.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_remove_attachment_button.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_thread_loading.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_thread_loading.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_rename_conversation.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_rename_conversation.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_message_details.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_message_details.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_manage_blocked_keywords.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_manage_blocked_keywords.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_archived_conversations.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_archived_conversations.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_thread_success.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_thread_success.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_thread_sending.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_thread_sending.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_search_result.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_search_result.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_attachment_image.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_attachment_image.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_add_blocked_keyword.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_add_blocked_keyword.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_thread_error.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_thread_error.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_invalid_number.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_invalid_number.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_new_conversation.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_new_conversation.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_manage_blocked_keyword.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_manage_blocked_keyword.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_export_messages.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_export_messages.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/layout_thread_send_message_holder.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/layout_thread_send_message_holder.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_vcard_contact_property.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_vcard_contact_property.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_message.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_message.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_attachment_vcard.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_attachment_vcard.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_suggested_contact.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_suggested_contact.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/schedule_message_dialog.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/schedule_message_dialog.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_attachment_vcard_preview.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_attachment_vcard_preview.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_conversation.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_conversation.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_conversation_details.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_conversation_details.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/dialog_import_messages.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/dialog_import_messages.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_attachment_media_preview.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_attachment_media_preview.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/layout_attachment_picker.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/layout_attachment_picker.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_sent_unknown_attachment.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_sent_unknown_attachment.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_attachment_document_preview.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_attachment_document_preview.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/layout_invalid_short_code_info.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/layout_invalid_short_code_info.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/item_selected_contact.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/item_selected_contact.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_recycle_bin_conversations.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_recycle_bin_conversations.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-mergePrepaidDebugResources-72:/layout/activity_settings.xml",
+        "source": "com.simplemobiletools.smsmessenger.app-main-75:/layout/activity_settings.xml"
+    }
+]

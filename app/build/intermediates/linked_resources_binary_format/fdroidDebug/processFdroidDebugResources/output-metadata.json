@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "LINKED_RESOURCES_BINARY_FORMAT",
+    "kind": "Directory"
+  },
+  "applicationId": "com.simplemobiletools.smsmessenger.debug",
+  "variantName": "fdroidDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 85,
+      "versionName": "5.19.3",
+      "outputFile": "linked-resources-binary-format-fdroidDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

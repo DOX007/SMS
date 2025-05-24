@@ -1,0 +1,746 @@
+[
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/xml_provider_paths.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_deep_orange.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_deep_orange.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_archive_menu.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/archive_menu.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_cyan.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_cyan.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_linear_layout_horizontal_divider.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/linear_layout_horizontal_divider.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_thread_success.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_thread_success.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_vcard_viewer.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_vcard_viewer.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_grey_black.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_grey_black.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_attachment_document_preview.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_attachment_document_preview.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable-xxhdpi_ic_messenger.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable-xxhdpi/ic_messenger.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_new_conversation.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_new_conversation.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_invalid_number.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_invalid_number.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_indigo.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_indigo.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_brown.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_brown.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_teal.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_teal.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_light_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_light_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_attachment_vcard_preview.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_attachment_vcard_preview.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_amber.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_amber.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_menu_add_blocked_keyword.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/menu_add_blocked_keyword.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_pink.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_pink.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_linear_layout_vertical_divider.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/linear_layout_vertical_divider.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_red.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_red.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_indigo.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_indigo.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_videocam_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_videocam_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_menu_main.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_cab_thread.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/cab_thread.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_whitelist_editor.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_whitelist_editor.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_cab_conversations.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/cab_conversations.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_deep_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_deep_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_calendar_month_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_calendar_month_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_check_double_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_check_double_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_lime.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_lime.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_indigo.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_indigo.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_cab_recycle_bin_conversations.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/cab_recycle_bin_conversations.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_message.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_message.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_grey_black.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_grey_black.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_grey_black.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_grey_black.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_amber.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_amber.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_brown.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_brown.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_thread_loading.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_thread_loading.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_archived_conversations.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_archived_conversations.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_conversation.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_conversation.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_lime.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_lime.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable-xhdpi_ic_messenger.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable-xhdpi/ic_messenger.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_launcher_monochrome.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_suggested_contact.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_suggested_contact.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_document_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_document_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_cab_archived_conversations.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/cab_archived_conversations.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/xml_searchable.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/xml/searchable.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable-hdpi_ic_messenger.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable-hdpi/ic_messenger.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_thread.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_thread.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_brown.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_brown.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_brown.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_brown.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_archive_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_archive_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_vector_folder_zip.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_vector_folder_zip.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_yellow.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_yellow.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_red.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_red.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_pink.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_pink.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_grey_black.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_grey_black.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_deep_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_deep_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_yellow.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_yellow.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_send_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_send_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_delete_confirmation.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_delete_confirmation.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_lime.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_lime.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_arrow_down_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_arrow_down_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_search_result.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_search_result.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_item_sent_background.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/item_sent_background.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_deep_orange.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_deep_orange.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_conversation_details.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_conversation_details.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_export_messages.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_export_messages.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_thread_sending.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_thread_sending.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_blue_grey.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_blue_grey.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_light_blue.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_light_blue.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_video_camera_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_video_camera_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_pink.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_pink.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_main.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_light_green.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_light_green.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_rename_conversation.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_rename_conversation.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_deep_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_deep_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_light_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_light_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_blue_grey.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_blue_grey.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_remove_attachment_button.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_remove_attachment_button.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_thread_date_time.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_thread_date_time.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_unarchive_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_unarchive_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_collapse_up.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_collapse_up.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_expand_down.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_expand_down.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_teal.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_teal.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_vector_play_circle_outline.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_vector_play_circle_outline.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_layout_invalid_short_code_info.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/layout_invalid_short_code_info.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_settings.xml.flat",
+        "source": "com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_sent_unknown_attachment.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_sent_unknown_attachment.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_manage_blocked_keywords.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_manage_blocked_keywords.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_pink.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_pink.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_thread_error.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_thread_error.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_green.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_green.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_red.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_red.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_cyan.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_cyan.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_teal.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_teal.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_schedule_message_dialog.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/schedule_message_dialog.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_pink.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_pink.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_blue.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_blue.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_light_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_light_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_cyan.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_cyan.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_blue_grey.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_blue_grey.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_menu_vcard.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/menu_vcard.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_baseline_all_inclusive_24.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/baseline_all_inclusive_24.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_cyan.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_cyan.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_blue_grey.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_blue_grey.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_message_details.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_message_details.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_red.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_red.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_deep_orange.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_deep_orange.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_import_messages.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_import_messages.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_brown.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_brown.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_light_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_light_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_attachment_vcard.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_attachment_vcard.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_vcard_contact.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_vcard_contact.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_item_selected_contact_background.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/item_selected_contact_background.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_teal.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_teal.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_layout_attachment_picker.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/layout_attachment_picker.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_layout_thread_send_message_holder.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/layout_thread_send_message_holder.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_cab_blocked_keywords.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/cab_blocked_keywords.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_grey_black.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_grey_black.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable-xxxhdpi_ic_messenger.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable-xxxhdpi/ic_messenger.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_image_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_image_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_teal.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_teal.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_deep_orange.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_deep_orange.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_vector_audio_file.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_vector_audio_file.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_recycle_bin_conversations.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_recycle_bin_conversations.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_vcard_contact_property.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_vcard_contact_property.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_indigo.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_indigo.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_light_green.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_light_green.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_lime.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_lime.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_light_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_light_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_selected_contact.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_selected_contact.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_music_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_music_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_attachment_image.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_attachment_image.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_amber.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_amber.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_cyan.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_cyan.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_menu_thread.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/menu_thread.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_attachment_media_preview.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_attachment_media_preview.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_purple.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_purple.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_amber.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_amber.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_activity_settings.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_manage_blocked_keyword.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_manage_blocked_keyword.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_deep_purple.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_deep_purple.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_schedule_send_vector.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_schedule_send_vector.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_red.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_red.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_deep_purple.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_deep_purple.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_item_attachment_document.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/item_attachment_document.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable-mdpi_ic_messenger.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable-mdpi/ic_messenger.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_add_blocked_keyword.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_add_blocked_keyword.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_yellow.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_yellow.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxhdpi_ic_launcher_lime.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxhdpi/ic_launcher_lime.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_item_received_background.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/item_received_background.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/menu_recycle_bin_menu.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/menu/recycle_bin_menu.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_indigo.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_indigo.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_blue_grey.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_blue_grey.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_yellow.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_yellow.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xxxhdpi_ic_launcher_light_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xxxhdpi/ic_launcher_light_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_deep_orange.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_deep_orange.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-hdpi_ic_launcher_light_blue.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-hdpi/ic_launcher_light_blue.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-xhdpi_ic_launcher_yellow.png.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-xhdpi/ic_launcher_yellow.png"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/drawable_ic_vector_pdf.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/drawable/ic_vector_pdf.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/layout_dialog_select_text.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/layout/dialog_select_text.xml"
+    },
+    {
+        "merged": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-coreDebug-73:/mipmap-anydpi-v26_ic_launcher_amber.xml.flat",
+        "source": "/home/alexander/.gradle/daemon/8.11.1/com.simplemobiletools.smsmessenger.app-main-77:/mipmap-anydpi-v26/ic_launcher_amber.xml"
+    }
+]

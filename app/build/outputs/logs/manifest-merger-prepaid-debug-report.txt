@@ -1,0 +1,1318 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:250:9-258:20
+	android:grantUriPermissions
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:254:13-47
+	android:authorities
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:252:13-60
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:253:13-37
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:251:13-62
+manifest
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:2:1-525:12
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:2:1-525:12
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:2:1-525:12
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:2:1-525:12
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:2:1-69:12
+MERGED from [com.github.tibbi:IndicatorFastScroll:4524cd0b61] /home/alexander/.gradle/caches/8.11.1/transforms/48baf0787f555f5659545f9737bcfcea/transformed/jetified-IndicatorFastScroll-4524cd0b61/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.9.0] /home/alexander/.gradle/caches/8.11.1/transforms/a668d8a1a042f5fb89b758fc0f0ae871/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/alexander/.gradle/caches/8.11.1/transforms/09a3c799eb0a8b2559d059ba285ce297/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.tibbi:RecyclerView-FastScroller:5a95285b1f] /home/alexander/.gradle/caches/8.11.1/transforms/39df9212c50b52d5dbcd2423ad09d822/transformed/jetified-RecyclerView-FastScroller-5a95285b1f/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/206dcc1973009b8b8cfc2f2683e888ea/transformed/jetified-biometric-ktx-1.2.0-alpha05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.tibbi.reprint:tests:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/207f35dc2bcfbdc5053af36002755571/transformed/jetified-tests-2cb206415d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi.reprint:rxjava:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/a4a905fce1e8feec6ccafe0877d54bcb/transformed/jetified-rxjava-2cb206415d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi.reprint:rxjava2:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/d41ea5ba7315d513d0deccf8c35a77e3/transformed/jetified-rxjava2-2cb206415d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/e8650e235226a50feb575672e80fb91e/transformed/jetified-core-2cb206415d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.aritraroy.patternLockView:patternlockview-reactive:a90b0d4bf0] /home/alexander/.gradle/caches/8.11.1/transforms/e05c9e85f6a16708b0ce727a04709fae/transformed/jetified-patternlockview-reactive-a90b0d4bf0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.aritraroy.patternLockView:patternlockview:a90b0d4bf0] /home/alexander/.gradle/caches/8.11.1/transforms/649be22788e47b6f96266f1a31ecea6c/transformed/jetified-patternlockview-a90b0d4bf0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alexander/.gradle/caches/8.11.1/transforms/aa876e08c19170afd10318abeb1fe0b5/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alexander/.gradle/caches/8.11.1/transforms/776553f2d0cd4d53934757ea615606b3/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.2] /home/alexander/.gradle/caches/8.11.1/transforms/8d3e23dd1fd98e503797a18315c9ffa8/transformed/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/alexander/.gradle/caches/8.11.1/transforms/f4f7e0f3b3ea51a0a376395785aa4051/transformed/jetified-glide-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/0598ab220792894c0cf6617175d07339/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/alexander/.gradle/caches/8.11.1/transforms/69dab4687e59b3ad1931a5a1bd3f7046/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/2935c5246e65aac448d5f694c9093cbc/transformed/jetified-activity-1.8.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/f427db183ac7302fedcc3aa33f8015f6/transformed/jetified-activity-ktx-1.8.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0-alpha08] /home/alexander/.gradle/caches/8.11.1/transforms/4d39ebc6a18c56a8f1e48092acfb4e0c/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/e8764195be9920a5417dab4022b4dcef/transformed/jetified-activity-compose-1.8.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/1e2958ab85dbef7f0cdb847135bd80ab/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/f5c78c9d695ba3853613000b1a4eb8ea/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/57e2c57c25fcd2b202429dcca77008ec/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/1849fcc72028971f49ce9d797762297f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/25a4cdb432315c844a54c5dbf0bc71d6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/b8a510a715a133cd18169239543ee414/transformed/lifecycle-livedata-2.7.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/3895cec25f3306e09b252353e7a8b91f/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a198f0433b9cc90d62873d9a5f1d3959/transformed/lifecycle-livedata-core-2.7.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/0e03f5c9616fb5a013832395d3b045ce/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/d6cf8350941d1a293d0dcf04ef8d2272/transformed/lifecycle-viewmodel-2.7.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/b6723b1f0d8d66327c7567fc876ff6c4/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/8824b8cfa8a5e6b54b5e06d8350cf2e0/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/4fc00394690f0471b082c052ccfc6363/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/e41a6288a19c6f1981a951a387f27573/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/14822563639516e99da4608158239a38/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/ecda33e71e4f79056d174d7ee03ae95a/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/2478d9e1e820c7d674c5b4b9869ef2b5/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/1585d856201fce6821c93ccb18eaf8d9/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/331a0ead39041a889da3e568a945577a/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/bcddab963ef4906304c925eeab8b3bf5/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/525f2822dc20efd1c6a7e5926beb9dce/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e86bbf2b69caef0c9364c787f5de1a88/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/f123183e67586c52363ea994bb23c520/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/alexander/.gradle/caches/8.11.1/transforms/f1502db146296e0e018dc03edd82691e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/227d0b5723c1b7847025c8dc500bb481/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/6ef7bf69e38609393ed02b9133e9bbb7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/291b5dcfc6ad05e0645f2d460781f788/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/1e2761af5573ce1bc6b226365b687c4e/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/fdab96319cf01dbbef6647a7eada9834/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/8f75a786410eee5dc1ce7fc06d2d3f97/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/fc9ddaee202839056e41b826ef7a0212/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/a281e86c0b7a022597f634e7c412e038/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/006eba872672e72a6f110283dbf8cf17/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/bed2944a524decb3bbe88730f4ed9692/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/d8f443fdac5706db8130c2dc45027b56/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/d5b3d51917b529bb2e8d95b4a281bca7/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/41670802301d6312fee7e13b150a5144/transformed/lifecycle-runtime-2.7.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/f3cfee97c41362aa65362d18abcdbdee/transformed/jetified-lifecycle-viewmodel-compose-2.7.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/d9b0173cf7e08eb8269778f96574a6ff/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/0623982069c7addc14b24e66b6de7bce/transformed/jetified-lifecycle-runtime-ktx-2.7.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/68a69efaaa7ca16d5d1eb0984f44d1f2/transformed/jetified-lifecycle-runtime-compose-2.7.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/d3d9aabba7e28232281ec353e2f52b02/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-viewbinding:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/94eca0438a75a375da8d2365002c14c8/transformed/jetified-ui-viewbinding-1.6.0-alpha06/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.9.1] /home/alexander/.gradle/caches/8.11.1/transforms/cdf8b92bcfdb562fb9a73f3cf8100649/transformed/jetified-viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/2ed562b74e562bbb2a2df96a951dba96/transformed/jetified-room-ktx-2.6.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/3d0a2eb2fdcde5ae2e196e73b0ed58cc/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/42b9e04987afa2b2fd3a096cb1b92461/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [org.greenrobot:eventbus:3.3.1] /home/alexander/.gradle/caches/8.11.1/transforms/7e9238bda1ee4be8dbdc71e7e4c8e1b2/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:2:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /home/alexander/.gradle/caches/8.11.1/transforms/921bf690e8c8b0e778b68c6b739a8f0f/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/alexander/.gradle/caches/8.11.1/transforms/41f49acf9ccb80d408819c3cadb5d251/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/f49875298d1244d26b0ce3c1809d9782/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alexander/.gradle/caches/8.11.1/transforms/2099ce414ca76f7fcb99237820fae9c1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/f537045028528c29e9638213133ac663/transformed/sqlite-framework-2.4.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/a6adc22332135407a737b1c6a5134633/transformed/sqlite-2.4.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/92f20c2e5816d7e202637763d81f85e8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/39d24c057a558ee682ebb27ea1a731c2/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/alexander/.gradle/caches/8.11.1/transforms/12c59460627c4c80bd023f6ff32cdad0/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/24ba170723a669f3a8edb03fdbb2a7e0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/36b1ccb90676a3b7570718c1a2c85ad1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/78ecab007fd7dc0f9533642c57cb8341/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/8f43b73a0d425dac3e42ebcf553a61cb/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/bd3d83c1dcbab96434b36423f9e7d042/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.duolingo:rtl-viewpager:940f12724f] /home/alexander/.gradle/caches/8.11.1/transforms/66783c5a96f1d4e68aad470d8cfcf50c/transformed/jetified-rtl-viewpager-940f12724f/AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/42cd56d997815072502a263048589bb5/transformed/jetified-rxandroid-2.0.0/AndroidManifest.xml:15:1-21:12
+	package
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:4:5-35
+uses-permission#android.permission.READ_SMS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:9:22-67
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:10:22-67
+uses-permission#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:15:22-74
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:16:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:18:5-20:38
+	android:maxSdkVersion
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:20:9-35
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:19:9-65
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:22:22-69
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:23:5-25:31
+REJECTED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:20:5-22:31
+REJECTED from [androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:5-72
+	tools:node
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:24:9-56
+queries
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:27:5-30:15
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:8:5-11:15
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:8:5-11:15
+package#com.simplemobiletools.contacts.pro.debug
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:28:9-76
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:28:18-73
+package#com.simplemobiletools.contacts.pro
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:29:9-70
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:29:18-67
+uses-feature#android.hardware.telephony
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:32:5-63
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:32:19-60
+application
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:34:5-524:19
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:34:5-524:19
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:32:5-67:19
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:32:5-67:19
+MERGED from [com.google.android.material:material:1.9.0] /home/alexander/.gradle/caches/8.11.1/transforms/a668d8a1a042f5fb89b758fc0f0ae871/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /home/alexander/.gradle/caches/8.11.1/transforms/a668d8a1a042f5fb89b758fc0f0ae871/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/alexander/.gradle/caches/8.11.1/transforms/09a3c799eb0a8b2559d059ba285ce297/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/alexander/.gradle/caches/8.11.1/transforms/09a3c799eb0a8b2559d059ba285ce297/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:23:5-29:19
+MERGED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:9:5-20:19
+MERGED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:9:5-20:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/36b1ccb90676a3b7570718c1a2c85ad1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/36b1ccb90676a3b7570718c1a2c85ad1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+	android:localeConfig
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:40:9-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:32:18-44
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:39:9-50
+	android:appCategory
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:37:9-43
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:41:9-48
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:38:9-43
+	android:allowBackup
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:42:9-40
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:35:9-28
+activity#com.simplemobiletools.smsmessenger.activities.SplashActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:44:9-47:50
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:46:13-37
+	android:theme
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:47:13-47
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:45:13-54
+activity#com.simplemobiletools.smsmessenger.activities.MainActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:49:9-52:39
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:52:13-36
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:50:13-52
+activity#com.simplemobiletools.smsmessenger.activities.RecycleBinConversationsActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:54:9-59:69
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:59:13-66
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:58:13-48
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:57:13-36
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:56:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:55:13-71
+activity#com.simplemobiletools.smsmessenger.activities.ArchivedConversationsActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:61:9-66:69
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:66:13-66
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:65:13-59
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:64:13-36
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:62:13-69
+activity#com.simplemobiletools.smsmessenger.activities.ThreadActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:68:9-74:58
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:73:13-66
+	android:launchMode
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:72:13-43
+	android:windowSoftInputMode
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:71:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:70:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:69:13-54
+activity#com.simplemobiletools.smsmessenger.activities.NewConversationActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:76:9-109:20
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:80:13-66
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:79:13-36
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:78:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:77:13-63
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:82:13-94:29
+action#android.intent.action.SEND
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:83:17-69
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:83:25-66
+action#android.intent.action.SENDTO
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:84:17-71
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:84:25-68
+action#android.intent.action.VIEW
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:85:17-69
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:85:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:17-76
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:88:17-78
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:88:27-75
+data
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+	android:scheme
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+	android:mimeType
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:100:23-45
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:96:13-101:29
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:103:13-108:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:104:17-78
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:104:25-75
+activity#com.simplemobiletools.smsmessenger.activities.SettingsActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:111:9-122:20
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:116:13-66
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:115:13-45
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:114:13-36
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:113:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:112:13-56
+intent-filter#action:name:android.intent.action.APPLICATION_PREFERENCES+category:name:android.intent.category.DEFAULT
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:118:13-121:29
+action#android.intent.action.APPLICATION_PREFERENCES
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:119:17-88
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:119:25-85
+activity#com.simplemobiletools.commons.activities.AboutActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:124:9-129:69
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:129:13-66
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:128:13-42
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:127:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:126:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:125:13-82
+activity#com.simplemobiletools.commons.activities.CustomizationActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:131:9-136:73
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:136:13-70
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:135:13-53
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:134:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:133:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:132:13-90
+activity#com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:138:9-144:45
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:51:9-56:62
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:51:9-56:62
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:143:13-70
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:142:13-52
+		REJECTED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:56:13-59
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:141:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:140:13-48
+	android:enableOnBackInvokedCallback
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:54:13-55
+	tools:replace
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:144:13-42
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:139:13-97
+activity#com.simplemobiletools.smsmessenger.activities.ManageBlockedKeywordsActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:146:9-151:73
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:151:13-70
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:150:13-53
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:149:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:148:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:147:13-69
+activity#com.simplemobiletools.smsmessenger.activities.VCardViewerActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:153:9-158:71
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:158:13-68
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:157:13-52
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:156:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:155:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:154:13-59
+activity#com.simplemobiletools.smsmessenger.activities.ConversationDetailsActivity
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:160:9-165:71
+	android:parentActivityName
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:165:13-68
+	android:label
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:164:13-57
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:163:13-37
+	android:configChanges
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:162:13-48
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:161:13-67
+service#com.simplemobiletools.smsmessenger.services.HeadlessSmsSendService
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:167:9-180:19
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:169:13-36
+	android:permission
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:170:13-77
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:168:13-60
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:171:13-179:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:172:17-84
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:172:25-81
+service#com.android.mms.transaction.TransactionService
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:182:9-82
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:182:18-79
+receiver#com.simplemobiletools.smsmessenger.receivers.SmsStatusSentReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:184:9-69
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:184:19-66
+receiver#com.simplemobiletools.smsmessenger.receivers.SmsStatusDeliveredReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:186:9-74
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:186:19-71
+receiver#com.simplemobiletools.smsmessenger.receivers.SmsReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:188:9-195:20
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:190:13-36
+	android:permission
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:191:13-66
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:189:13-50
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:192:13-194:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:193:17-81
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:193:25-78
+receiver#com.android.mms.transaction.PushReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:197:9-207:20
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:199:13-36
+	android:permission
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:200:13-71
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:198:13-68
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message+data:mimeType:application/vnd.wap.sic
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:201:13-206:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:202:17-86
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:202:25-83
+receiver#com.simplemobiletools.smsmessenger.receivers.MmsSentReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:209:9-212:77
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:211:13-36
+	android:taskAffinity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:212:13-74
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:210:13-54
+receiver#com.simplemobiletools.smsmessenger.receivers.MmsReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:214:9-217:81
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:216:13-36
+	android:taskAffinity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:217:13-78
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:215:13-50
+receiver#com.simplemobiletools.smsmessenger.receivers.MarkAsReadReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:219:9-226:20
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:221:13-35
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:222:13-36
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:220:13-57
+intent-filter#action:name:com.simplemobiletools.smsmessenger.action.mark_as_read
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:223:13-225:29
+action#com.simplemobiletools.smsmessenger.action.mark_as_read
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:224:17-97
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:224:25-94
+receiver#com.simplemobiletools.smsmessenger.receivers.DirectReplyReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:228:9-235:20
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:230:13-35
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:231:13-36
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:229:13-58
+intent-filter#action:name:com.simplemobiletools.smsmessenger.action.reply
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:232:13-234:29
+action#com.simplemobiletools.smsmessenger.action.reply
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:233:17-90
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:233:25-87
+receiver#com.simplemobiletools.smsmessenger.receivers.DeleteSmsReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:237:9-244:20
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:239:13-35
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:240:13-36
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:238:13-56
+intent-filter#action:name:com.simplemobiletools.smsmessenger.action.delete
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:241:13-243:29
+action#com.simplemobiletools.smsmessenger.action.delete
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:242:17-91
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:242:25-88
+receiver#com.simplemobiletools.smsmessenger.receivers.ScheduledMessageReceiver
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:246:9-248:40
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:248:13-37
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:247:13-63
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Red
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:260:9-272:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:262:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:263:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:266:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:265:13-56
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:264:13-51
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:261:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+action#android.intent.action.MAIN
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Pink
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:274:9-286:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:276:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:277:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:280:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:279:13-57
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:278:13-52
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:275:13-59
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Purple
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:288:9-300:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:290:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:291:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:294:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:293:13-59
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:292:13-54
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:289:13-61
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_purple
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:302:9-314:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:304:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:305:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:308:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:307:13-64
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:306:13-59
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:303:13-66
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Indigo
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:316:9-328:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:318:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:319:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:322:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:321:13-59
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:320:13-54
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:317:13-61
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:330:9-342:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:332:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:333:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:336:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:335:13-57
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:334:13-52
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:331:13-59
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_blue
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:344:9-356:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:346:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:347:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:350:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:349:13-63
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:348:13-58
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:345:13-65
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Cyan
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:358:9-370:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:360:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:361:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:364:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:363:13-57
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:362:13-52
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:359:13-59
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Teal
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:372:9-384:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:374:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:375:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:378:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:377:13-57
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:376:13-52
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:373:13-59
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Green
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:386:9-398:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:388:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:389:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:392:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:391:13-58
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:390:13-53
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:387:13-60
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_green
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:400:9-412:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:402:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:403:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:406:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:405:13-64
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:404:13-59
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:401:13-66
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Lime
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:414:9-426:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:416:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:417:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:420:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:419:13-57
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:418:13-52
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:415:13-59
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Yellow
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:428:9-440:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:430:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:431:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:434:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:433:13-59
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:432:13-54
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:429:13-61
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Amber
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:442:9-454:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:444:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:445:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:448:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:447:13-58
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:446:13-53
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:443:13-60
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Orange
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:456:9-467:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:458:13-35
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:459:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:462:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:461:13-52
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:460:13-47
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:457:13-61
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_orange
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:469:9-481:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:471:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:472:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:475:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:474:13-64
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:473:13-59
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:470:13-66
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Brown
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:483:9-495:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:485:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:486:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:489:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:488:13-58
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:487:13-53
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:484:13-60
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue_grey
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:497:9-509:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:499:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:500:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:503:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:502:13-62
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:501:13-57
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:498:13-64
+activity-alias#com.simplemobiletools.smsmessenger.activities.SplashActivity.Grey_black
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:511:9-523:26
+	android:enabled
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:513:13-36
+	android:exported
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:514:13-36
+	android:targetActivity
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:517:13-64
+	android:roundIcon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:516:13-63
+	android:icon
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:515:13-58
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:512:13-65
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:255:13-257:58
+	android:resource
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:257:17-55
+	android:name
+		ADDED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:256:17-67
+uses-sdk
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:6:5-44
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:6:5-44
+MERGED from [com.github.tibbi:IndicatorFastScroll:4524cd0b61] /home/alexander/.gradle/caches/8.11.1/transforms/48baf0787f555f5659545f9737bcfcea/transformed/jetified-IndicatorFastScroll-4524cd0b61/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tibbi:IndicatorFastScroll:4524cd0b61] /home/alexander/.gradle/caches/8.11.1/transforms/48baf0787f555f5659545f9737bcfcea/transformed/jetified-IndicatorFastScroll-4524cd0b61/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.9.0] /home/alexander/.gradle/caches/8.11.1/transforms/a668d8a1a042f5fb89b758fc0f0ae871/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /home/alexander/.gradle/caches/8.11.1/transforms/a668d8a1a042f5fb89b758fc0f0ae871/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/alexander/.gradle/caches/8.11.1/transforms/09a3c799eb0a8b2559d059ba285ce297/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/alexander/.gradle/caches/8.11.1/transforms/09a3c799eb0a8b2559d059ba285ce297/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tibbi:RecyclerView-FastScroller:5a95285b1f] /home/alexander/.gradle/caches/8.11.1/transforms/39df9212c50b52d5dbcd2423ad09d822/transformed/jetified-RecyclerView-FastScroller-5a95285b1f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tibbi:RecyclerView-FastScroller:5a95285b1f] /home/alexander/.gradle/caches/8.11.1/transforms/39df9212c50b52d5dbcd2423ad09d822/transformed/jetified-RecyclerView-FastScroller-5a95285b1f/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/206dcc1973009b8b8cfc2f2683e888ea/transformed/jetified-biometric-ktx-1.2.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/206dcc1973009b8b8cfc2f2683e888ea/transformed/jetified-biometric-ktx-1.2.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [com.github.tibbi.reprint:tests:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/207f35dc2bcfbdc5053af36002755571/transformed/jetified-tests-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:tests:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/207f35dc2bcfbdc5053af36002755571/transformed/jetified-tests-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/a4a905fce1e8feec6ccafe0877d54bcb/transformed/jetified-rxjava-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/a4a905fce1e8feec6ccafe0877d54bcb/transformed/jetified-rxjava-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava2:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/d41ea5ba7315d513d0deccf8c35a77e3/transformed/jetified-rxjava2-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava2:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/d41ea5ba7315d513d0deccf8c35a77e3/transformed/jetified-rxjava2-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/e8650e235226a50feb575672e80fb91e/transformed/jetified-core-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/e8650e235226a50feb575672e80fb91e/transformed/jetified-core-2cb206415d/AndroidManifest.xml:5:5-44
+MERGED from [com.github.aritraroy.patternLockView:patternlockview-reactive:a90b0d4bf0] /home/alexander/.gradle/caches/8.11.1/transforms/e05c9e85f6a16708b0ce727a04709fae/transformed/jetified-patternlockview-reactive-a90b0d4bf0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aritraroy.patternLockView:patternlockview-reactive:a90b0d4bf0] /home/alexander/.gradle/caches/8.11.1/transforms/e05c9e85f6a16708b0ce727a04709fae/transformed/jetified-patternlockview-reactive-a90b0d4bf0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aritraroy.patternLockView:patternlockview:a90b0d4bf0] /home/alexander/.gradle/caches/8.11.1/transforms/649be22788e47b6f96266f1a31ecea6c/transformed/jetified-patternlockview-a90b0d4bf0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aritraroy.patternLockView:patternlockview:a90b0d4bf0] /home/alexander/.gradle/caches/8.11.1/transforms/649be22788e47b6f96266f1a31ecea6c/transformed/jetified-patternlockview-a90b0d4bf0/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alexander/.gradle/caches/8.11.1/transforms/aa876e08c19170afd10318abeb1fe0b5/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alexander/.gradle/caches/8.11.1/transforms/aa876e08c19170afd10318abeb1fe0b5/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alexander/.gradle/caches/8.11.1/transforms/776553f2d0cd4d53934757ea615606b3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alexander/.gradle/caches/8.11.1/transforms/776553f2d0cd4d53934757ea615606b3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.2] /home/alexander/.gradle/caches/8.11.1/transforms/8d3e23dd1fd98e503797a18315c9ffa8/transformed/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.2] /home/alexander/.gradle/caches/8.11.1/transforms/8d3e23dd1fd98e503797a18315c9ffa8/transformed/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/alexander/.gradle/caches/8.11.1/transforms/f4f7e0f3b3ea51a0a376395785aa4051/transformed/jetified-glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/alexander/.gradle/caches/8.11.1/transforms/f4f7e0f3b3ea51a0a376395785aa4051/transformed/jetified-glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/0598ab220792894c0cf6617175d07339/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/0598ab220792894c0cf6617175d07339/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/alexander/.gradle/caches/8.11.1/transforms/69dab4687e59b3ad1931a5a1bd3f7046/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/alexander/.gradle/caches/8.11.1/transforms/69dab4687e59b3ad1931a5a1bd3f7046/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/2935c5246e65aac448d5f694c9093cbc/transformed/jetified-activity-1.8.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/2935c5246e65aac448d5f694c9093cbc/transformed/jetified-activity-1.8.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/f427db183ac7302fedcc3aa33f8015f6/transformed/jetified-activity-ktx-1.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/f427db183ac7302fedcc3aa33f8015f6/transformed/jetified-activity-ktx-1.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0-alpha08] /home/alexander/.gradle/caches/8.11.1/transforms/4d39ebc6a18c56a8f1e48092acfb4e0c/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0-alpha08] /home/alexander/.gradle/caches/8.11.1/transforms/4d39ebc6a18c56a8f1e48092acfb4e0c/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/e8764195be9920a5417dab4022b4dcef/transformed/jetified-activity-compose-1.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/e8764195be9920a5417dab4022b4dcef/transformed/jetified-activity-compose-1.8.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/1e2958ab85dbef7f0cdb847135bd80ab/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/1e2958ab85dbef7f0cdb847135bd80ab/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/f5c78c9d695ba3853613000b1a4eb8ea/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/f5c78c9d695ba3853613000b1a4eb8ea/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/57e2c57c25fcd2b202429dcca77008ec/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/57e2c57c25fcd2b202429dcca77008ec/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/1849fcc72028971f49ce9d797762297f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/1849fcc72028971f49ce9d797762297f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/25a4cdb432315c844a54c5dbf0bc71d6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/25a4cdb432315c844a54c5dbf0bc71d6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/b8a510a715a133cd18169239543ee414/transformed/lifecycle-livedata-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/b8a510a715a133cd18169239543ee414/transformed/lifecycle-livedata-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/3895cec25f3306e09b252353e7a8b91f/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/3895cec25f3306e09b252353e7a8b91f/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a198f0433b9cc90d62873d9a5f1d3959/transformed/lifecycle-livedata-core-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a198f0433b9cc90d62873d9a5f1d3959/transformed/lifecycle-livedata-core-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/0e03f5c9616fb5a013832395d3b045ce/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/0e03f5c9616fb5a013832395d3b045ce/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/d6cf8350941d1a293d0dcf04ef8d2272/transformed/lifecycle-viewmodel-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/d6cf8350941d1a293d0dcf04ef8d2272/transformed/lifecycle-viewmodel-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/b6723b1f0d8d66327c7567fc876ff6c4/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/b6723b1f0d8d66327c7567fc876ff6c4/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/8824b8cfa8a5e6b54b5e06d8350cf2e0/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/8824b8cfa8a5e6b54b5e06d8350cf2e0/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/4fc00394690f0471b082c052ccfc6363/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/4fc00394690f0471b082c052ccfc6363/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/e41a6288a19c6f1981a951a387f27573/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/alexander/.gradle/caches/8.11.1/transforms/e41a6288a19c6f1981a951a387f27573/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/14822563639516e99da4608158239a38/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/14822563639516e99da4608158239a38/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/ecda33e71e4f79056d174d7ee03ae95a/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/ecda33e71e4f79056d174d7ee03ae95a/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/2478d9e1e820c7d674c5b4b9869ef2b5/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/2478d9e1e820c7d674c5b4b9869ef2b5/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/1585d856201fce6821c93ccb18eaf8d9/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/1585d856201fce6821c93ccb18eaf8d9/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/331a0ead39041a889da3e568a945577a/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/331a0ead39041a889da3e568a945577a/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/bcddab963ef4906304c925eeab8b3bf5/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/bcddab963ef4906304c925eeab8b3bf5/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/525f2822dc20efd1c6a7e5926beb9dce/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/525f2822dc20efd1c6a7e5926beb9dce/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e86bbf2b69caef0c9364c787f5de1a88/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e86bbf2b69caef0c9364c787f5de1a88/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/f123183e67586c52363ea994bb23c520/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/f123183e67586c52363ea994bb23c520/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/alexander/.gradle/caches/8.11.1/transforms/f1502db146296e0e018dc03edd82691e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/alexander/.gradle/caches/8.11.1/transforms/f1502db146296e0e018dc03edd82691e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/227d0b5723c1b7847025c8dc500bb481/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/227d0b5723c1b7847025c8dc500bb481/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/6ef7bf69e38609393ed02b9133e9bbb7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/6ef7bf69e38609393ed02b9133e9bbb7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/291b5dcfc6ad05e0645f2d460781f788/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/291b5dcfc6ad05e0645f2d460781f788/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/1e2761af5573ce1bc6b226365b687c4e/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/1e2761af5573ce1bc6b226365b687c4e/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/fdab96319cf01dbbef6647a7eada9834/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/fdab96319cf01dbbef6647a7eada9834/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/8f75a786410eee5dc1ce7fc06d2d3f97/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/8f75a786410eee5dc1ce7fc06d2d3f97/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/fc9ddaee202839056e41b826ef7a0212/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/fc9ddaee202839056e41b826ef7a0212/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/a281e86c0b7a022597f634e7c412e038/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/a281e86c0b7a022597f634e7c412e038/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/006eba872672e72a6f110283dbf8cf17/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/006eba872672e72a6f110283dbf8cf17/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/bed2944a524decb3bbe88730f4ed9692/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/bed2944a524decb3bbe88730f4ed9692/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/d8f443fdac5706db8130c2dc45027b56/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/d8f443fdac5706db8130c2dc45027b56/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/d5b3d51917b529bb2e8d95b4a281bca7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/alexander/.gradle/caches/8.11.1/transforms/d5b3d51917b529bb2e8d95b4a281bca7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/41670802301d6312fee7e13b150a5144/transformed/lifecycle-runtime-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/41670802301d6312fee7e13b150a5144/transformed/lifecycle-runtime-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/f3cfee97c41362aa65362d18abcdbdee/transformed/jetified-lifecycle-viewmodel-compose-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/f3cfee97c41362aa65362d18abcdbdee/transformed/jetified-lifecycle-viewmodel-compose-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/d9b0173cf7e08eb8269778f96574a6ff/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/d9b0173cf7e08eb8269778f96574a6ff/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/0623982069c7addc14b24e66b6de7bce/transformed/jetified-lifecycle-runtime-ktx-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/0623982069c7addc14b24e66b6de7bce/transformed/jetified-lifecycle-runtime-ktx-2.7.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/68a69efaaa7ca16d5d1eb0984f44d1f2/transformed/jetified-lifecycle-runtime-compose-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/68a69efaaa7ca16d5d1eb0984f44d1f2/transformed/jetified-lifecycle-runtime-compose-2.7.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/d3d9aabba7e28232281ec353e2f52b02/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/d3d9aabba7e28232281ec353e2f52b02/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/94eca0438a75a375da8d2365002c14c8/transformed/jetified-ui-viewbinding-1.6.0-alpha06/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/94eca0438a75a375da8d2365002c14c8/transformed/jetified-ui-viewbinding-1.6.0-alpha06/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] /home/alexander/.gradle/caches/8.11.1/transforms/cdf8b92bcfdb562fb9a73f3cf8100649/transformed/jetified-viewbinding-8.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] /home/alexander/.gradle/caches/8.11.1/transforms/cdf8b92bcfdb562fb9a73f3cf8100649/transformed/jetified-viewbinding-8.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/2ed562b74e562bbb2a2df96a951dba96/transformed/jetified-room-ktx-2.6.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/2ed562b74e562bbb2a2df96a951dba96/transformed/jetified-room-ktx-2.6.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/3d0a2eb2fdcde5ae2e196e73b0ed58cc/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/3d0a2eb2fdcde5ae2e196e73b0ed58cc/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/42b9e04987afa2b2fd3a096cb1b92461/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha06] /home/alexander/.gradle/caches/8.11.1/transforms/42b9e04987afa2b2fd3a096cb1b92461/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [org.greenrobot:eventbus:3.3.1] /home/alexander/.gradle/caches/8.11.1/transforms/7e9238bda1ee4be8dbdc71e7e4c8e1b2/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [org.greenrobot:eventbus:3.3.1] /home/alexander/.gradle/caches/8.11.1/transforms/7e9238bda1ee4be8dbdc71e7e4c8e1b2/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:5:5-7:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.documentfile:documentfile:1.0.1] /home/alexander/.gradle/caches/8.11.1/transforms/921bf690e8c8b0e778b68c6b739a8f0f/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /home/alexander/.gradle/caches/8.11.1/transforms/921bf690e8c8b0e778b68c6b739a8f0f/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/alexander/.gradle/caches/8.11.1/transforms/41f49acf9ccb80d408819c3cadb5d251/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/alexander/.gradle/caches/8.11.1/transforms/41f49acf9ccb80d408819c3cadb5d251/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/f49875298d1244d26b0ce3c1809d9782/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/f49875298d1244d26b0ce3c1809d9782/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alexander/.gradle/caches/8.11.1/transforms/2099ce414ca76f7fcb99237820fae9c1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alexander/.gradle/caches/8.11.1/transforms/2099ce414ca76f7fcb99237820fae9c1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/f537045028528c29e9638213133ac663/transformed/sqlite-framework-2.4.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/f537045028528c29e9638213133ac663/transformed/sqlite-framework-2.4.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/a6adc22332135407a737b1c6a5134633/transformed/sqlite-2.4.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/a6adc22332135407a737b1c6a5134633/transformed/sqlite-2.4.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/92f20c2e5816d7e202637763d81f85e8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/92f20c2e5816d7e202637763d81f85e8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/39d24c057a558ee682ebb27ea1a731c2/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/39d24c057a558ee682ebb27ea1a731c2/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/alexander/.gradle/caches/8.11.1/transforms/12c59460627c4c80bd023f6ff32cdad0/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/alexander/.gradle/caches/8.11.1/transforms/12c59460627c4c80bd023f6ff32cdad0/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/24ba170723a669f3a8edb03fdbb2a7e0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/24ba170723a669f3a8edb03fdbb2a7e0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/36b1ccb90676a3b7570718c1a2c85ad1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/36b1ccb90676a3b7570718c1a2c85ad1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/78ecab007fd7dc0f9533642c57cb8341/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/78ecab007fd7dc0f9533642c57cb8341/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/8f43b73a0d425dac3e42ebcf553a61cb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/8f43b73a0d425dac3e42ebcf553a61cb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/bd3d83c1dcbab96434b36423f9e7d042/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/bd3d83c1dcbab96434b36423f9e7d042/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.duolingo:rtl-viewpager:940f12724f] /home/alexander/.gradle/caches/8.11.1/transforms/66783c5a96f1d4e68aad470d8cfcf50c/transformed/jetified-rtl-viewpager-940f12724f/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.duolingo:rtl-viewpager:940f12724f] /home/alexander/.gradle/caches/8.11.1/transforms/66783c5a96f1d4e68aad470d8cfcf50c/transformed/jetified-rtl-viewpager-940f12724f/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/42cd56d997815072502a263048589bb5/transformed/jetified-rxandroid-2.0.0/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] /home/alexander/.gradle/caches/8.11.1/transforms/42cd56d997815072502a263048589bb5/transformed/jetified-rxandroid-2.0.0/AndroidManifest.xml:19:5-43
+	android:targetSdkVersion
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml
+package#com.simplemobiletools.thankyou.debug
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:9:9-72
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:9:18-69
+package#com.simplemobiletools.thankyou
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:10:9-66
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:10:18-63
+uses-feature#android.hardware.faketouch
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:14:9-50
+uses-feature#android.hardware.screen.portrait
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:17:9-56
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:23:5-25:31
+REJECTED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:24:9-81
+uses-permission#com.simplemobiletools.smsmessenger.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:23:5-25:31
+REJECTED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:24:9-81
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:28:5-30:31
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:30:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:29:9-101
+activity#com.simplemobiletools.commons.activities.ContributorsActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:33:9-38:99
+	android:parentActivityName
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:38:13-96
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:37:13-49
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:36:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:34:13-89
+activity#com.simplemobiletools.commons.activities.FAQActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:39:9-44:99
+	android:parentActivityName
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:44:13-96
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:43:13-63
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:42:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:40:13-80
+activity#com.simplemobiletools.commons.activities.LicenseActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:45:9-50:99
+	android:parentActivityName
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:50:13-96
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:49:13-57
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:48:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:47:13-48
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:46:13-84
+receiver#com.simplemobiletools.commons.receivers.SharedThemeReceiver
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:58:9-66:20
+	android:enabled
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:60:13-35
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:59:13-87
+intent-filter#action:name:com.simplemobiletools.commons.SHARED_THEME_ACTIVATED+action:name:com.simplemobiletools.commons.SHARED_THEME_UPDATED
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:62:13-65:29
+action#com.simplemobiletools.commons.SHARED_THEME_ACTIVATED
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:63:17-95
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:63:25-92
+action#com.simplemobiletools.commons.SHARED_THEME_UPDATED
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:64:17-93
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:64:25-90
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/e8650e235226a50feb575672e80fb91e/transformed/jetified-core-2cb206415d/AndroidManifest.xml:7:5-74
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] /home/alexander/.gradle/caches/8.11.1/transforms/e8650e235226a50feb575672e80fb91e/transformed/jetified-core-2cb206415d/AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alexander/.gradle/caches/8.11.1/transforms/e3c8535128369a8dff4d9bf67f8a0ab0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.simplemobiletools.smsmessenger.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:25:13-74
+provider#com.klinker.android.send_message.MmsFileProvider
+ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:10:9-15:50
+	android:grantUriPermissions
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:15:13-47
+	android:enabled
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:13:13-35
+	android:authorities
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:12:13-67
+	android:exported
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:11:13-76
+uses-library#org.apache.http.legacy
+ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:17:9-19:40
+	android:required
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:18:13-50
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

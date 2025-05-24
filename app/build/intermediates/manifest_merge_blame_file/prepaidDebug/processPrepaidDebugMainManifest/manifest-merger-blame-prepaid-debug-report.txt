@@ -1,0 +1,1190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simplemobiletools.smsmessenger.debug"
+4    android:installLocation="auto"
+5    android:versionCode="85"
+6    android:versionName="5.19.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.READ_SMS" />
+12-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_SMS" />
+13-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:7:5-68
+13-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.SEND_SMS" />
+14-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+15-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:9:5-70
+15-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:9:22-67
+16    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+16-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:10:5-70
+16-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:10:22-67
+17    <uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
+17-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:11:5-79
+17-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:12:5-68
+18-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:13:5-79
+19-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:14:5-75
+20-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:14:22-72
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:15:5-77
+21-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+22-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:16:5-77
+22-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:16:22-74
+23    <uses-permission
+23-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:18:5-20:38
+24        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+24-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:19:9-65
+25        android:maxSdkVersion="28" />
+25-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:20:9-35
+26    <uses-permission android:name="android.permission.READ_CONTACTS" />
+26-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:22:5-72
+26-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:22:22-69
+27
+28    <queries>
+28-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:27:5-30:15
+29        <package android:name="com.simplemobiletools.contacts.pro.debug" />
+29-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:28:9-76
+29-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:28:18-73
+30        <package android:name="com.simplemobiletools.contacts.pro" />
+30-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:29:9-70
+30-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:29:18-67
+31        <package android:name="com.simplemobiletools.thankyou.debug" />
+31-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:9:9-72
+31-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:9:18-69
+32        <package android:name="com.simplemobiletools.thankyou" />
+32-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:10:9-66
+32-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:10:18-63
+33    </queries>
+34
+35    <uses-feature android:name="android.hardware.telephony" />
+35-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:32:5-63
+35-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:32:19-60
+36    <uses-feature
+36-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:13:5-15:36
+37        android:name="android.hardware.faketouch"
+37-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:14:9-50
+38        android:required="false" />
+38-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:15:9-33
+39    <uses-feature
+39-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:16:5-18:36
+40        android:name="android.hardware.screen.portrait"
+40-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:17:9-56
+41        android:required="false" /> <!-- suppress DeprecatedClassUsageInspection -->
+41-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:18:9-33
+42    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+42-->[androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+42-->[androidx.biometric:biometric:1.2.0-alpha05] /home/alexander/.gradle/caches/8.11.1/transforms/99bf4a8c0763b8012d12d070ca92716e/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+43
+44    <permission
+44-->[androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+45        android:name="com.simplemobiletools.smsmessenger.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" /> <!-- for android -->
+46-->[androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+47    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+48    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+49    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+50    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+51    <!-- for Samsung -->
+52    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+52-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+52-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+53    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+53-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+54    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+54-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+55    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+56    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+57    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+57-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+58    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+58-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+58-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+59    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+60    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+60-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+61    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+61-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+61-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+62    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+62-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+62-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+63    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+64    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+65    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+65-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+65-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+66-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+66-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+67    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+67-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+67-->[me.leolin:ShortcutBadger:1.1.22] /home/alexander/.gradle/caches/8.11.1/transforms/3f8b1cbee2b3fbb7fa0630de56dc019c/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+68
+69    <application
+69-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:34:5-524:19
+70        android:name="com.simplemobiletools.smsmessenger.App"
+70-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:35:9-28
+71        android:allowBackup="true"
+71-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:36:9-35
+72        android:appCategory="productivity"
+72-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:37:9-43
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.12.0] /home/alexander/.gradle/caches/8.11.1/transforms/a996c4562521d668464a86c66f94cf4b/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+74        android:debuggable="true"
+75        android:extractNativeLibs="false"
+76        android:icon="@mipmap/ic_launcher"
+76-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:38:9-43
+77        android:label="@string/app_launcher_name"
+77-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:39:9-50
+78        android:localeConfig="@xml/locale_config"
+78-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:40:9-50
+79        android:roundIcon="@mipmap/ic_launcher"
+79-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:41:9-48
+80        android:supportsRtl="true"
+80-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:32:18-44
+81        android:theme="@style/AppTheme" >
+81-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:42:9-40
+82        <activity
+82-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:44:9-47:50
+83            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity"
+83-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:45:13-54
+84            android:exported="false"
+84-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:46:13-37
+85            android:theme="@style/SplashTheme" />
+85-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:47:13-47
+86
+87        <activity-alias
+87-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:511:9-523:26
+88            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Grey_black"
+88-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:512:13-65
+89            android:enabled="false"
+89-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:513:13-36
+90            android:exported="true"
+90-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:514:13-36
+91            android:icon="@mipmap/ic_launcher_grey_black"
+91-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:515:13-58
+92            android:roundIcon="@mipmap/ic_launcher_grey_black"
+92-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:516:13-63
+93            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+93-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:517:13-64
+94            <intent-filter>
+94-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+95-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+97-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+98            </intent-filter>
+99        </activity-alias>
+100        <activity-alias
+100-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:497:9-509:26
+101            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue_grey"
+101-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:498:13-64
+102            android:enabled="false"
+102-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:499:13-36
+103            android:exported="true"
+103-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:500:13-36
+104            android:icon="@mipmap/ic_launcher_blue_grey"
+104-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:501:13-57
+105            android:roundIcon="@mipmap/ic_launcher_blue_grey"
+105-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:502:13-62
+106            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+106-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:503:13-64
+107            <intent-filter>
+107-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+108                <action android:name="android.intent.action.MAIN" />
+108-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+108-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+109
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+110-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+111            </intent-filter>
+112        </activity-alias>
+113        <activity-alias
+113-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:483:9-495:26
+114            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Brown"
+114-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:484:13-60
+115            android:enabled="false"
+115-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:485:13-36
+116            android:exported="true"
+116-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:486:13-36
+117            android:icon="@mipmap/ic_launcher_brown"
+117-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:487:13-53
+118            android:roundIcon="@mipmap/ic_launcher_brown"
+118-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:488:13-58
+119            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+119-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:489:13-64
+120            <intent-filter>
+120-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+121-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+123-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+124            </intent-filter>
+125        </activity-alias>
+126        <activity-alias
+126-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:469:9-481:26
+127            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_orange"
+127-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:470:13-66
+128            android:enabled="false"
+128-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:471:13-36
+129            android:exported="true"
+129-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:472:13-36
+130            android:icon="@mipmap/ic_launcher_deep_orange"
+130-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:473:13-59
+131            android:roundIcon="@mipmap/ic_launcher_deep_orange"
+131-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:474:13-64
+132            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+132-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:475:13-64
+133            <intent-filter>
+133-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+134                <action android:name="android.intent.action.MAIN" />
+134-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+134-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+135
+136                <category android:name="android.intent.category.LAUNCHER" />
+136-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+136-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+137            </intent-filter>
+138        </activity-alias>
+139        <activity-alias
+139-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:456:9-467:26
+140            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Orange"
+140-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:457:13-61
+141            android:enabled="true"
+141-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:458:13-35
+142            android:exported="true"
+142-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:459:13-36
+143            android:icon="@mipmap/ic_launcher"
+143-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:460:13-47
+144            android:roundIcon="@mipmap/ic_launcher"
+144-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:461:13-52
+145            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+145-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:462:13-64
+146            <intent-filter>
+146-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+147                <action android:name="android.intent.action.MAIN" />
+147-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+147-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+148
+149                <category android:name="android.intent.category.LAUNCHER" />
+149-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+149-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+150            </intent-filter>
+151        </activity-alias>
+152        <activity-alias
+152-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:442:9-454:26
+153            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Amber"
+153-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:443:13-60
+154            android:enabled="false"
+154-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:444:13-36
+155            android:exported="true"
+155-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:445:13-36
+156            android:icon="@mipmap/ic_launcher_amber"
+156-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:446:13-53
+157            android:roundIcon="@mipmap/ic_launcher_amber"
+157-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:447:13-58
+158            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+158-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:448:13-64
+159            <intent-filter>
+159-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+160                <action android:name="android.intent.action.MAIN" />
+160-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+160-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+161
+162                <category android:name="android.intent.category.LAUNCHER" />
+162-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+162-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+163            </intent-filter>
+164        </activity-alias>
+165        <activity-alias
+165-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:428:9-440:26
+166            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Yellow"
+166-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:429:13-61
+167            android:enabled="false"
+167-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:430:13-36
+168            android:exported="true"
+168-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:431:13-36
+169            android:icon="@mipmap/ic_launcher_yellow"
+169-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:432:13-54
+170            android:roundIcon="@mipmap/ic_launcher_yellow"
+170-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:433:13-59
+171            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+171-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:434:13-64
+172            <intent-filter>
+172-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+173                <action android:name="android.intent.action.MAIN" />
+173-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+173-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+174
+175                <category android:name="android.intent.category.LAUNCHER" />
+175-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+175-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+176            </intent-filter>
+177        </activity-alias>
+178        <activity-alias
+178-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:414:9-426:26
+179            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Lime"
+179-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:415:13-59
+180            android:enabled="false"
+180-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:416:13-36
+181            android:exported="true"
+181-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:417:13-36
+182            android:icon="@mipmap/ic_launcher_lime"
+182-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:418:13-52
+183            android:roundIcon="@mipmap/ic_launcher_lime"
+183-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:419:13-57
+184            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+184-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:420:13-64
+185            <intent-filter>
+185-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+186                <action android:name="android.intent.action.MAIN" />
+186-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+186-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+187
+188                <category android:name="android.intent.category.LAUNCHER" />
+188-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+188-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+189            </intent-filter>
+190        </activity-alias>
+191        <activity-alias
+191-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:400:9-412:26
+192            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_green"
+192-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:401:13-66
+193            android:enabled="false"
+193-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:402:13-36
+194            android:exported="true"
+194-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:403:13-36
+195            android:icon="@mipmap/ic_launcher_light_green"
+195-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:404:13-59
+196            android:roundIcon="@mipmap/ic_launcher_light_green"
+196-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:405:13-64
+197            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+197-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:406:13-64
+198            <intent-filter>
+198-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+199                <action android:name="android.intent.action.MAIN" />
+199-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+199-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+200
+201                <category android:name="android.intent.category.LAUNCHER" />
+201-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+201-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+202            </intent-filter>
+203        </activity-alias>
+204        <activity-alias
+204-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:386:9-398:26
+205            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Green"
+205-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:387:13-60
+206            android:enabled="false"
+206-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:388:13-36
+207            android:exported="true"
+207-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:389:13-36
+208            android:icon="@mipmap/ic_launcher_green"
+208-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:390:13-53
+209            android:roundIcon="@mipmap/ic_launcher_green"
+209-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:391:13-58
+210            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+210-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:392:13-64
+211            <intent-filter>
+211-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+212                <action android:name="android.intent.action.MAIN" />
+212-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+212-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+213
+214                <category android:name="android.intent.category.LAUNCHER" />
+214-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+214-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+215            </intent-filter>
+216        </activity-alias>
+217        <activity-alias
+217-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:372:9-384:26
+218            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Teal"
+218-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:373:13-59
+219            android:enabled="false"
+219-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:374:13-36
+220            android:exported="true"
+220-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:375:13-36
+221            android:icon="@mipmap/ic_launcher_teal"
+221-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:376:13-52
+222            android:roundIcon="@mipmap/ic_launcher_teal"
+222-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:377:13-57
+223            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+223-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:378:13-64
+224            <intent-filter>
+224-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+225                <action android:name="android.intent.action.MAIN" />
+225-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+225-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+226
+227                <category android:name="android.intent.category.LAUNCHER" />
+227-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+227-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+228            </intent-filter>
+229        </activity-alias>
+230        <activity-alias
+230-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:358:9-370:26
+231            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Cyan"
+231-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:359:13-59
+232            android:enabled="false"
+232-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:360:13-36
+233            android:exported="true"
+233-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:361:13-36
+234            android:icon="@mipmap/ic_launcher_cyan"
+234-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:362:13-52
+235            android:roundIcon="@mipmap/ic_launcher_cyan"
+235-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:363:13-57
+236            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+236-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:364:13-64
+237            <intent-filter>
+237-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+238                <action android:name="android.intent.action.MAIN" />
+238-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+238-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+239
+240                <category android:name="android.intent.category.LAUNCHER" />
+240-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+240-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+241            </intent-filter>
+242        </activity-alias>
+243        <activity-alias
+243-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:344:9-356:26
+244            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_blue"
+244-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:345:13-65
+245            android:enabled="false"
+245-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:346:13-36
+246            android:exported="true"
+246-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:347:13-36
+247            android:icon="@mipmap/ic_launcher_light_blue"
+247-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:348:13-58
+248            android:roundIcon="@mipmap/ic_launcher_light_blue"
+248-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:349:13-63
+249            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+249-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:350:13-64
+250            <intent-filter>
+250-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+251                <action android:name="android.intent.action.MAIN" />
+251-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+251-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+252
+253                <category android:name="android.intent.category.LAUNCHER" />
+253-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+253-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+254            </intent-filter>
+255        </activity-alias>
+256        <activity-alias
+256-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:330:9-342:26
+257            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue"
+257-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:331:13-59
+258            android:enabled="false"
+258-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:332:13-36
+259            android:exported="true"
+259-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:333:13-36
+260            android:icon="@mipmap/ic_launcher_blue"
+260-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:334:13-52
+261            android:roundIcon="@mipmap/ic_launcher_blue"
+261-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:335:13-57
+262            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+262-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:336:13-64
+263            <intent-filter>
+263-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+264                <action android:name="android.intent.action.MAIN" />
+264-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+264-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+265
+266                <category android:name="android.intent.category.LAUNCHER" />
+266-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+266-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+267            </intent-filter>
+268        </activity-alias>
+269        <activity-alias
+269-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:316:9-328:26
+270            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Indigo"
+270-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:317:13-61
+271            android:enabled="false"
+271-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:318:13-36
+272            android:exported="true"
+272-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:319:13-36
+273            android:icon="@mipmap/ic_launcher_indigo"
+273-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:320:13-54
+274            android:roundIcon="@mipmap/ic_launcher_indigo"
+274-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:321:13-59
+275            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+275-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:322:13-64
+276            <intent-filter>
+276-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+277                <action android:name="android.intent.action.MAIN" />
+277-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+277-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+278
+279                <category android:name="android.intent.category.LAUNCHER" />
+279-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+279-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+280            </intent-filter>
+281        </activity-alias>
+282        <activity-alias
+282-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:302:9-314:26
+283            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_purple"
+283-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:303:13-66
+284            android:enabled="false"
+284-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:304:13-36
+285            android:exported="true"
+285-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:305:13-36
+286            android:icon="@mipmap/ic_launcher_deep_purple"
+286-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:306:13-59
+287            android:roundIcon="@mipmap/ic_launcher_deep_purple"
+287-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:307:13-64
+288            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+288-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:308:13-64
+289            <intent-filter>
+289-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+290                <action android:name="android.intent.action.MAIN" />
+290-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+290-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+291
+292                <category android:name="android.intent.category.LAUNCHER" />
+292-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+292-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+293            </intent-filter>
+294        </activity-alias>
+295        <activity-alias
+295-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:288:9-300:26
+296            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Purple"
+296-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:289:13-61
+297            android:enabled="false"
+297-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:290:13-36
+298            android:exported="true"
+298-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:291:13-36
+299            android:icon="@mipmap/ic_launcher_purple"
+299-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:292:13-54
+300            android:roundIcon="@mipmap/ic_launcher_purple"
+300-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:293:13-59
+301            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+301-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:294:13-64
+302            <intent-filter>
+302-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+303                <action android:name="android.intent.action.MAIN" />
+303-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+303-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+304
+305                <category android:name="android.intent.category.LAUNCHER" />
+305-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+305-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+306            </intent-filter>
+307        </activity-alias>
+308        <activity-alias
+308-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:274:9-286:26
+309            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Pink"
+309-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:275:13-59
+310            android:enabled="false"
+310-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:276:13-36
+311            android:exported="true"
+311-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:277:13-36
+312            android:icon="@mipmap/ic_launcher_pink"
+312-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:278:13-52
+313            android:roundIcon="@mipmap/ic_launcher_pink"
+313-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:279:13-57
+314            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+314-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:280:13-64
+315            <intent-filter>
+315-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+316                <action android:name="android.intent.action.MAIN" />
+316-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+316-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+317
+318                <category android:name="android.intent.category.LAUNCHER" />
+318-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+318-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+319            </intent-filter>
+320        </activity-alias>
+321        <activity-alias
+321-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:260:9-272:26
+322            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Red"
+322-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:261:13-58
+323            android:enabled="false"
+323-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:262:13-36
+324            android:exported="true"
+324-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:263:13-36
+325            android:icon="@mipmap/ic_launcher_red"
+325-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:264:13-51
+326            android:roundIcon="@mipmap/ic_launcher_red"
+326-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:265:13-56
+327            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+327-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:266:13-64
+328            <intent-filter>
+328-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:268:13-271:29
+329                <action android:name="android.intent.action.MAIN" />
+329-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:17-69
+329-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:269:25-66
+330
+331                <category android:name="android.intent.category.LAUNCHER" />
+331-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:17-77
+331-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:270:27-74
+332            </intent-filter>
+333        </activity-alias>
+334
+335        <activity
+335-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:49:9-52:39
+336            android:name="com.simplemobiletools.smsmessenger.activities.MainActivity"
+336-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:50:13-52
+337            android:configChanges="orientation"
+337-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:51:13-48
+338            android:exported="true" />
+338-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:52:13-36
+339        <activity
+339-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:54:9-59:69
+340            android:name="com.simplemobiletools.smsmessenger.activities.RecycleBinConversationsActivity"
+340-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:55:13-71
+341            android:configChanges="orientation"
+341-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:56:13-48
+342            android:exported="true"
+342-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:57:13-36
+343            android:label="@string/recycle_bin"
+343-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:58:13-48
+344            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" />
+344-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:59:13-66
+345        <activity
+345-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:61:9-66:69
+346            android:name="com.simplemobiletools.smsmessenger.activities.ArchivedConversationsActivity"
+346-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:62:13-69
+347            android:configChanges="orientation"
+347-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:63:13-48
+348            android:exported="true"
+348-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:64:13-36
+349            android:label="@string/archived_conversations"
+349-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:65:13-59
+350            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" />
+350-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:66:13-66
+351        <activity
+351-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:68:9-74:58
+352            android:name="com.simplemobiletools.smsmessenger.activities.ThreadActivity"
+352-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:69:13-54
+353            android:configChanges="orientation"
+353-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:70:13-48
+354            android:exported="false"
+354-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:71:13-37
+355            android:launchMode="singleTop"
+355-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:72:13-43
+356            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity"
+356-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:73:13-66
+357            android:windowSoftInputMode="adjustResize" />
+357-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:74:13-55
+358        <activity
+358-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:76:9-109:20
+359            android:name="com.simplemobiletools.smsmessenger.activities.NewConversationActivity"
+359-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:77:13-63
+360            android:configChanges="orientation"
+360-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:78:13-48
+361            android:exported="true"
+361-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:79:13-36
+362            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" >
+362-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:80:13-66
+363            <intent-filter>
+363-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:82:13-94:29
+364                <action android:name="android.intent.action.SEND" />
+364-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:83:17-69
+364-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:83:25-66
+365                <action android:name="android.intent.action.SENDTO" />
+365-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:84:17-71
+365-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:84:25-68
+366                <action android:name="android.intent.action.VIEW" />
+366-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:85:17-69
+366-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:85:25-66
+367
+368                <category android:name="android.intent.category.DEFAULT" />
+368-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:17-76
+368-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:27-73
+369                <category android:name="android.intent.category.BROWSABLE" />
+369-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:88:17-78
+369-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:88:27-75
+370
+371                <data android:scheme="sms" />
+371-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+371-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+372                <data android:scheme="smsto" />
+372-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+372-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+373                <data android:scheme="mms" />
+373-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+373-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+374                <data android:scheme="mmsto" />
+374-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+374-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+375            </intent-filter>
+376            <intent-filter>
+376-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:96:13-101:29
+377                <action android:name="android.intent.action.SEND" />
+377-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:83:17-69
+377-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:83:25-66
+378
+379                <category android:name="android.intent.category.DEFAULT" />
+379-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:17-76
+379-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:27-73
+380
+381                <data android:mimeType="*/*" />
+381-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+381-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:100:23-45
+382            </intent-filter>
+383            <intent-filter>
+383-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:103:13-108:29
+384                <action android:name="android.intent.action.SEND_MULTIPLE" />
+384-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:104:17-78
+384-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:104:25-75
+385
+386                <category android:name="android.intent.category.DEFAULT" />
+386-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:17-76
+386-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:27-73
+387
+388                <data android:mimeType="*/*" />
+388-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+388-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:100:23-45
+389            </intent-filter>
+390        </activity>
+391        <activity
+391-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:111:9-122:20
+392            android:name="com.simplemobiletools.smsmessenger.activities.SettingsActivity"
+392-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:112:13-56
+393            android:configChanges="orientation"
+393-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:113:13-48
+394            android:exported="true"
+394-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:114:13-36
+395            android:label="@string/settings"
+395-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:115:13-45
+396            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" >
+396-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:116:13-66
+397            <intent-filter>
+397-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:118:13-121:29
+398                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+398-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:119:17-88
+398-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:119:25-85
+399
+400                <category android:name="android.intent.category.DEFAULT" />
+400-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:17-76
+400-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:27-73
+401            </intent-filter>
+402        </activity>
+403        <activity
+403-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:124:9-129:69
+404            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+404-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:125:13-82
+405            android:configChanges="orientation"
+405-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:126:13-48
+406            android:exported="false"
+406-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:127:13-37
+407            android:label="@string/about"
+407-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:128:13-42
+408            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" />
+408-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:129:13-66
+409        <activity
+409-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:131:9-136:73
+410            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+410-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:132:13-90
+411            android:configChanges="orientation"
+411-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:133:13-48
+412            android:exported="false"
+412-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:134:13-37
+413            android:label="@string/customize_colors"
+413-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:135:13-53
+414            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.SettingsActivity" />
+414-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:136:13-70
+415        <activity
+415-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:138:9-144:45
+416            android:name="com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity"
+416-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:139:13-97
+417            android:configChanges="orientation"
+417-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:140:13-48
+418            android:enableOnBackInvokedCallback="true"
+418-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:54:13-55
+419            android:exported="false"
+419-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:141:13-37
+420            android:label="@string/blocked_numbers"
+420-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:142:13-52
+421            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.SettingsActivity" />
+421-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:143:13-70
+422        <activity
+422-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:146:9-151:73
+423            android:name="com.simplemobiletools.smsmessenger.activities.ManageBlockedKeywordsActivity"
+423-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:147:13-69
+424            android:configChanges="orientation"
+424-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:148:13-48
+425            android:exported="false"
+425-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:149:13-37
+426            android:label="@string/blocked_keywords"
+426-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:150:13-53
+427            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.SettingsActivity" />
+427-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:151:13-70
+428        <activity
+428-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:153:9-158:71
+429            android:name="com.simplemobiletools.smsmessenger.activities.VCardViewerActivity"
+429-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:154:13-59
+430            android:configChanges="orientation"
+430-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:155:13-48
+431            android:exported="false"
+431-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:156:13-37
+432            android:label="@string/contact_details"
+432-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:157:13-52
+433            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.ThreadActivity" />
+433-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:158:13-68
+434        <activity
+434-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:160:9-165:71
+435            android:name="com.simplemobiletools.smsmessenger.activities.ConversationDetailsActivity"
+435-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:161:13-67
+436            android:configChanges="orientation"
+436-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:162:13-48
+437            android:exported="false"
+437-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:163:13-37
+438            android:label="@string/conversation_details"
+438-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:164:13-57
+439            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.ThreadActivity" />
+439-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:165:13-68
+440
+441        <service
+441-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:167:9-180:19
+442            android:name="com.simplemobiletools.smsmessenger.services.HeadlessSmsSendService"
+442-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:168:13-60
+443            android:exported="true"
+443-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:169:13-36
+444            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+444-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:170:13-77
+445            <intent-filter>
+445-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:171:13-179:29
+446                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+446-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:172:17-84
+446-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:172:25-81
+447
+448                <category android:name="android.intent.category.DEFAULT" />
+448-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:17-76
+448-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:87:27-73
+449
+450                <data android:scheme="sms" />
+450-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+450-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+451                <data android:scheme="smsto" />
+451-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+451-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+452                <data android:scheme="mms" />
+452-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+452-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+453                <data android:scheme="mmsto" />
+453-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+453-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:23-43
+454            </intent-filter>
+455        </service>
+456        <service android:name="com.android.mms.transaction.TransactionService" />
+456-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:182:9-82
+456-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:182:18-79
+457
+458        <receiver android:name="com.simplemobiletools.smsmessenger.receivers.SmsStatusSentReceiver" />
+458-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:184:9-69
+458-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:184:19-66
+459        <receiver android:name="com.simplemobiletools.smsmessenger.receivers.SmsStatusDeliveredReceiver" />
+459-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:186:9-74
+459-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:186:19-71
+460        <receiver
+460-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:188:9-195:20
+461            android:name="com.simplemobiletools.smsmessenger.receivers.SmsReceiver"
+461-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:189:13-50
+462            android:exported="true"
+462-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:190:13-36
+463            android:permission="android.permission.BROADCAST_SMS" >
+463-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:191:13-66
+464            <intent-filter>
+464-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:192:13-194:29
+465                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+465-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:193:17-81
+465-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:193:25-78
+466            </intent-filter>
+467        </receiver>
+468        <receiver
+468-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:197:9-207:20
+469            android:name="com.android.mms.transaction.PushReceiver"
+469-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:198:13-68
+470            android:exported="true"
+470-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:199:13-36
+471            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+471-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:200:13-71
+472            <intent-filter>
+472-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:201:13-206:29
+473                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+473-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:202:17-86
+473-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:202:25-83
+474
+475                <data android:mimeType="application/vnd.wap.mms-message" />
+475-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+475-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:100:23-45
+476                <data android:mimeType="application/vnd.wap.sic" />
+476-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:90:17-46
+476-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:100:23-45
+477            </intent-filter>
+478        </receiver>
+479        <receiver
+479-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:209:9-212:77
+480            android:name="com.simplemobiletools.smsmessenger.receivers.MmsSentReceiver"
+480-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:210:13-54
+481            android:exported="true"
+481-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:211:13-36
+482            android:taskAffinity="com.klinker.android.messaging.MMS_SENT" />
+482-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:212:13-74
+483        <receiver
+483-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:214:9-217:81
+484            android:name="com.simplemobiletools.smsmessenger.receivers.MmsReceiver"
+484-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:215:13-50
+485            android:exported="true"
+485-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:216:13-36
+486            android:taskAffinity="com.klinker.android.messaging.MMS_RECEIVED" />
+486-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:217:13-78
+487        <receiver
+487-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:219:9-226:20
+488            android:name="com.simplemobiletools.smsmessenger.receivers.MarkAsReadReceiver"
+488-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:220:13-57
+489            android:enabled="true"
+489-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:221:13-35
+490            android:exported="true" >
+490-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:222:13-36
+491            <intent-filter>
+491-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:223:13-225:29
+492                <action android:name="com.simplemobiletools.smsmessenger.action.mark_as_read" />
+492-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:224:17-97
+492-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:224:25-94
+493            </intent-filter>
+494        </receiver>
+495        <receiver
+495-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:228:9-235:20
+496            android:name="com.simplemobiletools.smsmessenger.receivers.DirectReplyReceiver"
+496-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:229:13-58
+497            android:enabled="true"
+497-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:230:13-35
+498            android:exported="true" >
+498-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:231:13-36
+499            <intent-filter>
+499-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:232:13-234:29
+500                <action android:name="com.simplemobiletools.smsmessenger.action.reply" />
+500-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:233:17-90
+500-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:233:25-87
+501            </intent-filter>
+502        </receiver>
+503        <receiver
+503-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:237:9-244:20
+504            android:name="com.simplemobiletools.smsmessenger.receivers.DeleteSmsReceiver"
+504-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:238:13-56
+505            android:enabled="true"
+505-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:239:13-35
+506            android:exported="true" >
+506-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:240:13-36
+507            <intent-filter>
+507-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:241:13-243:29
+508                <action android:name="com.simplemobiletools.smsmessenger.action.delete" />
+508-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:242:17-91
+508-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:242:25-88
+509            </intent-filter>
+510        </receiver>
+511        <receiver
+511-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:246:9-248:40
+512            android:name="com.simplemobiletools.smsmessenger.receivers.ScheduledMessageReceiver"
+512-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:247:13-63
+513            android:exported="false" />
+513-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:248:13-37
+514
+515        <provider
+516            android:name="androidx.core.content.FileProvider"
+516-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:251:13-62
+517            android:authorities="com.simplemobiletools.smsmessenger.debug.provider"
+517-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:252:13-60
+518            android:exported="false"
+518-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:253:13-37
+519            android:grantUriPermissions="true" >
+519-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:254:13-47
+520            <meta-data
+520-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:255:13-257:58
+521                android:name="android.support.FILE_PROVIDER_PATHS"
+521-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:256:17-67
+522                android:resource="@xml/provider_paths" />
+522-->/home/alexander/Desktop/SMS/app/src/main/AndroidManifest.xml:257:17-55
+523        </provider>
+524
+525        <activity
+525-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:33:9-38:99
+526            android:name="com.simplemobiletools.commons.activities.ContributorsActivity"
+526-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:34:13-89
+527            android:configChanges="orientation"
+527-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:35:13-48
+528            android:exported="false"
+528-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:36:13-37
+529            android:label="@string/contributors"
+529-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:37:13-49
+530            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+530-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:38:13-96
+531        <activity
+531-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:39:9-44:99
+532            android:name="com.simplemobiletools.commons.activities.FAQActivity"
+532-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:40:13-80
+533            android:configChanges="orientation"
+533-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:41:13-48
+534            android:exported="false"
+534-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:42:13-37
+535            android:label="@string/frequently_asked_questions"
+535-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:43:13-63
+536            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+536-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:44:13-96
+537        <activity
+537-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:45:9-50:99
+538            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
+538-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:46:13-84
+539            android:configChanges="orientation"
+539-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:47:13-48
+540            android:exported="false"
+540-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:48:13-37
+541            android:label="@string/third_party_licences"
+541-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:49:13-57
+542            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+542-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:50:13-96
+543
+544        <receiver
+544-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:58:9-66:20
+545            android:name="com.simplemobiletools.commons.receivers.SharedThemeReceiver"
+545-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:59:13-87
+546            android:enabled="true"
+546-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:60:13-35
+547            android:exported="true" >
+547-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:61:13-36
+548            <intent-filter>
+548-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:62:13-65:29
+549                <action android:name="com.simplemobiletools.commons.SHARED_THEME_ACTIVATED" />
+549-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:63:17-95
+549-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:63:25-92
+550                <action android:name="com.simplemobiletools.commons.SHARED_THEME_UPDATED" />
+550-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:64:17-93
+550-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] /home/alexander/.gradle/caches/8.11.1/transforms/aa259870f672c8a2996acbb8f3f9b97a/transformed/jetified-Simple-Commons-b72ded2a75/AndroidManifest.xml:64:25-90
+551            </intent-filter>
+552        </receiver>
+553
+554        <provider
+554-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+555            android:name="androidx.startup.InitializationProvider"
+555-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+556            android:authorities="com.simplemobiletools.smsmessenger.debug.androidx-startup"
+556-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+557            android:exported="false" >
+557-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+558            <meta-data
+558-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+559                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+559-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+560                android:value="androidx.startup" />
+560-->[androidx.emoji2:emoji2:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/c2549fc53d24118297aec11ab6c60bcf/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+561            <meta-data
+561-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:29:13-31:52
+562                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+562-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:30:17-78
+563                android:value="androidx.startup" />
+563-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] /home/alexander/.gradle/caches/8.11.1/transforms/a488bdeffc8e05b3b1b06ef6a9604741/transformed/jetified-lifecycle-process-2.7.0-alpha02/AndroidManifest.xml:31:17-49
+564            <meta-data
+564-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+565                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+565-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+566                android:value="androidx.startup" />
+566-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+567        </provider>
+568
+569        <service
+569-->[androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:24:9-28:63
+570            android:name="androidx.room.MultiInstanceInvalidationService"
+570-->[androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:25:13-74
+571            android:directBootAware="true"
+571-->[androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:26:13-43
+572            android:exported="false" />
+572-->[androidx.room:room-runtime:2.6.0-rc01] /home/alexander/.gradle/caches/8.11.1/transforms/4f14136b1c9b4129d34aab937a003030/transformed/room-runtime-2.6.0-rc01/AndroidManifest.xml:27:13-37
+573
+574        <provider
+574-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:10:9-15:50
+575            android:name="com.klinker.android.send_message.MmsFileProvider"
+575-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:11:13-76
+576            android:authorities="com.simplemobiletools.smsmessenger.debug.MmsFileProvider"
+576-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:12:13-67
+577            android:enabled="true"
+577-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:13:13-35
+578            android:exported="false"
+578-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:14:13-37
+579            android:grantUriPermissions="true" />
+579-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:15:13-47
+580
+581        <uses-library
+581-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:17:9-19:40
+582            android:name="org.apache.http.legacy"
+582-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:18:13-50
+583            android:required="false" />
+583-->[com.github.tibbi:android-smsmms:c3e678befd] /home/alexander/.gradle/caches/8.11.1/transforms/6c3fce4b0a8cd04b8f9c10a57b2bdbe3/transformed/jetified-android-smsmms-c3e678befd/AndroidManifest.xml:19:13-37
+584
+585        <receiver
+585-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+586            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+587            android:directBootAware="false"
+587-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+588            android:enabled="true"
+588-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+589            android:exported="true"
+589-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+590            android:permission="android.permission.DUMP" >
+590-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+591            <intent-filter>
+591-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+592                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+592-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+592-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+593            </intent-filter>
+594            <intent-filter>
+594-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+595                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+596            </intent-filter>
+597            <intent-filter>
+597-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+598                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+598-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+598-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+599            </intent-filter>
+600            <intent-filter>
+600-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+601                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+601-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+601-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/alexander/.gradle/caches/8.11.1/transforms/4c4470afc55c6db2c6d0ae67bca8faac/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+602            </intent-filter>
+603        </receiver>
+604    </application>
+605
+606</manifest>

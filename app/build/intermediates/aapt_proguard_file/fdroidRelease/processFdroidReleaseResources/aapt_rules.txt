@@ -1,0 +1,198 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.android.mms.transaction.PushReceiver { <init>(); }
+-keep class com.android.mms.transaction.TransactionService { <init>(); }
+-keep class com.klinker.android.send_message.MmsFileProvider { <init>(); }
+-keep class com.simplemobiletools.commons.activities.AboutActivity { <init>(); }
+-keep class com.simplemobiletools.commons.activities.ContributorsActivity { <init>(); }
+-keep class com.simplemobiletools.commons.activities.CustomizationActivity { <init>(); }
+-keep class com.simplemobiletools.commons.activities.FAQActivity { <init>(); }
+-keep class com.simplemobiletools.commons.activities.LicenseActivity { <init>(); }
+-keep class com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity { <init>(); }
+-keep class com.simplemobiletools.commons.receivers.SharedThemeReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.App { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.ArchivedConversationsActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.ConversationDetailsActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.MainActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.ManageBlockedKeywordsActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.NewConversationActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.RecycleBinConversationsActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.SettingsActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.SplashActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.ThreadActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.activities.VCardViewerActivity { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.DeleteSmsReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.DirectReplyReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.MarkAsReadReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.MmsReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.MmsSentReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.ScheduledMessageReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.SmsReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.SmsStatusDeliveredReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.receivers.SmsStatusSentReceiver { <init>(); }
+-keep class com.simplemobiletools.smsmessenger.services.HeadlessSmsSendService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class android.widget.TextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.helper.widget.Flow { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Barrier { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.fragment.app.FragmentContainerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.andrognito.patternlockview.PatternLockView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.imageview.ShapeableImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.ClippableRoundedCornerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.TouchObserverFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.progressindicator.CircularProgressIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.progressindicator.LinearProgressIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabItem { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.reddit.indicatorfastscroll.FastScrollerThumbView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.reddit.indicatorfastscroll.FastScrollerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.BiometricIdTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.Breadcrumbs { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.ColorPickerSquare { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.FingerprintTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.LineColorPicker { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyAppCompatCheckbox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyAutoCompleteTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyCompatRadioButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyDialogViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyFloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MySearchMenu { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MySquareImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyTextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.MyViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.PatternTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.PinTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.RenamePatternTab { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.simplemobiletools.commons.views.RenameSimpleTab { <init>(android.content.Context, android.util.AttributeSet); }
+
