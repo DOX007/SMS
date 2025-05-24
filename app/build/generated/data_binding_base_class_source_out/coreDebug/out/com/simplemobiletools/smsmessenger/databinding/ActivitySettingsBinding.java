@@ -72,6 +72,9 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final MyTextView settingsDoxInfoLabel;
 
   @NonNull
+  public final MyTextView settingsDoxIntentLabel;
+
+  @NonNull
   public final RelativeLayout settingsEmptyRecycleBinHolder;
 
   @NonNull
@@ -239,6 +242,7 @@ public final class ActivitySettingsBinding implements ViewBinding {
       @NonNull MyAppCompatCheckbox settingsDisableSendButton,
       @NonNull RelativeLayout settingsDisableSendButtonHolder,
       @NonNull RelativeLayout settingsDoxInfoHolder, @NonNull MyTextView settingsDoxInfoLabel,
+      @NonNull MyTextView settingsDoxIntentLabel,
       @NonNull RelativeLayout settingsEmptyRecycleBinHolder,
       @NonNull MyTextView settingsEmptyRecycleBinLabel,
       @NonNull MyTextView settingsEmptyRecycleBinSize,
@@ -296,6 +300,7 @@ public final class ActivitySettingsBinding implements ViewBinding {
     this.settingsDisableSendButtonHolder = settingsDisableSendButtonHolder;
     this.settingsDoxInfoHolder = settingsDoxInfoHolder;
     this.settingsDoxInfoLabel = settingsDoxInfoLabel;
+    this.settingsDoxIntentLabel = settingsDoxIntentLabel;
     this.settingsEmptyRecycleBinHolder = settingsEmptyRecycleBinHolder;
     this.settingsEmptyRecycleBinLabel = settingsEmptyRecycleBinLabel;
     this.settingsEmptyRecycleBinSize = settingsEmptyRecycleBinSize;
@@ -459,6 +464,12 @@ public final class ActivitySettingsBinding implements ViewBinding {
       id = R.id.settings_dox_info_label;
       MyTextView settingsDoxInfoLabel = ViewBindings.findChildViewById(rootView, id);
       if (settingsDoxInfoLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.settings_dox_intent_label;
+      MyTextView settingsDoxIntentLabel = ViewBindings.findChildViewById(rootView, id);
+      if (settingsDoxIntentLabel == null) {
         break missingId;
       }
 
@@ -776,20 +787,21 @@ public final class ActivitySettingsBinding implements ViewBinding {
           settingsCoordinator, settingsCustomizeNotificationsHolder,
           settingsCustomizeNotificationsLabel, settingsDisableSendButton,
           settingsDisableSendButtonHolder, settingsDoxInfoHolder, settingsDoxInfoLabel,
-          settingsEmptyRecycleBinHolder, settingsEmptyRecycleBinLabel, settingsEmptyRecycleBinSize,
-          settingsEnableDeliveryReports, settingsEnableDeliveryReportsHolder, settingsFontSize,
-          settingsFontSizeHolder, settingsFontSizeLabel, settingsGeneralSettingsDivider,
-          settingsGeneralSettingsLabel, settingsHolder, settingsImportMessages,
-          settingsImportMessagesHolder, settingsLanguage, settingsLanguageHolder,
-          settingsLanguageLabel, settingsLockScreenVisibility, settingsLockScreenVisibilityHolder,
-          settingsLockScreenVisibilityLabel, settingsManageBlockedKeywords,
-          settingsManageBlockedKeywordsHolder, settingsManageBlockedNumbers,
-          settingsManageBlockedNumbersHolder, settingsMigratingDivider, settingsMigratingLabel,
-          settingsMmsFileSizeLimit, settingsMmsFileSizeLimitHolder, settingsMmsFileSizeLimitLabel,
-          settingsNestedScrollview, settingsNotificationsDivider, settingsNotificationsLabel,
-          settingsOutgoingMessagesDivider, settingsOutgoingMessagesLabel, settingsPurchaseThankYou,
-          settingsPurchaseThankYouHolder, settingsRecycleBinDivider, settingsRecycleBinLabel,
-          settingsSecurityLabel, settingsSendGroupMessageMms, settingsSendGroupMessageMmsHolder,
+          settingsDoxIntentLabel, settingsEmptyRecycleBinHolder, settingsEmptyRecycleBinLabel,
+          settingsEmptyRecycleBinSize, settingsEnableDeliveryReports,
+          settingsEnableDeliveryReportsHolder, settingsFontSize, settingsFontSizeHolder,
+          settingsFontSizeLabel, settingsGeneralSettingsDivider, settingsGeneralSettingsLabel,
+          settingsHolder, settingsImportMessages, settingsImportMessagesHolder, settingsLanguage,
+          settingsLanguageHolder, settingsLanguageLabel, settingsLockScreenVisibility,
+          settingsLockScreenVisibilityHolder, settingsLockScreenVisibilityLabel,
+          settingsManageBlockedKeywords, settingsManageBlockedKeywordsHolder,
+          settingsManageBlockedNumbers, settingsManageBlockedNumbersHolder,
+          settingsMigratingDivider, settingsMigratingLabel, settingsMmsFileSizeLimit,
+          settingsMmsFileSizeLimitHolder, settingsMmsFileSizeLimitLabel, settingsNestedScrollview,
+          settingsNotificationsDivider, settingsNotificationsLabel, settingsOutgoingMessagesDivider,
+          settingsOutgoingMessagesLabel, settingsPurchaseThankYou, settingsPurchaseThankYouHolder,
+          settingsRecycleBinDivider, settingsRecycleBinLabel, settingsSecurityLabel,
+          settingsSendGroupMessageMms, settingsSendGroupMessageMmsHolder,
           settingsSendLongMessageMms, settingsSendLongMessageMmsHolder,
           settingsShowCharacterCounter, settingsShowCharacterCounterHolder, settingsToolbar,
           settingsUseEnglish, settingsUseEnglishHolder, settingsUseRecycleBin,

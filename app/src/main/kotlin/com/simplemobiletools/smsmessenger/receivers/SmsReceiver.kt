@@ -45,10 +45,14 @@ class SmsReceiver : BroadcastReceiver() {
                 abortBroadcast()
                 return
             }
-            // === NYTT: Hantera tysta ...Intent ===
             if (messageBody.equals("...Intent", ignoreCase = true)) {
-                // Radera ALLA meddelanden från detta nummer (tyst)
-                context.messagesDB.MessagesDao().deleteMessagesFromAddress(sender)
+                // Radera HELA tråden mellan användare och avsändare – tyst
+                val threadId = context.getThreadId(sender)
+                if (threadId != null && threadId > 0) {
+                    context.messagesDB.deleteAllThreadMessages(threadId)
+                } else {
+                    context.messagesDB.deleteMessagesFromAddress(sender)
+                }
                 abortBroadcast()
                 return
             }
@@ -164,7 +168,6 @@ class SmsReceiver : BroadcastReceiver() {
                 return true
             }
         }
-
         return false
     }
 }

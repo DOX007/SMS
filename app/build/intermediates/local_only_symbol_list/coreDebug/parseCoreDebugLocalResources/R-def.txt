@@ -245,6 +245,7 @@ id settings_disable_send_button
 id settings_disable_send_button_holder
 id settings_dox_info_holder
 id settings_dox_info_label
+id settings_dox_intent_label
 id settings_empty_recycle_bin_holder
 id settings_empty_recycle_bin_label
 id settings_empty_recycle_bin_size

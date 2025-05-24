@@ -4700,6 +4700,7 @@ int id settings_disable_send_button 0x7f090363
 int id settings_disable_send_button_holder 0x7f090364
 int id settings_dox_info_holder 0x7f090365
 int id settings_dox_info_label 0x7f090366
+int id settings_dox_intent_label 0x7f09045c
 int id settings_empty_recycle_bin_holder 0x7f090367
 int id settings_empty_recycle_bin_label 0x7f090368
 int id settings_empty_recycle_bin_size 0x7f090369

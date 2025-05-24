@@ -42,27 +42,53 @@ class SettingsActivity : SimpleActivity() {
     private val binding by viewBinding(ActivitySettingsBinding::inflate)
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        isMaterialActivity = true
-        super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+    isMaterialActivity = true
+    super.onCreate(savedInstanceState)
+    setContentView(binding.root)
 
-        updateMaterialActivityViews(
-            mainCoordinatorLayout = binding.settingsCoordinator,
-            nestedView = binding.settingsHolder,
-            useTransparentNavigation = true,
-            useTopSearchMenu = false
-        )
-        setupMaterialScrollListener(scrollingView = binding.settingsNestedScrollview, toolbar = binding.settingsToolbar)
+    updateMaterialActivityViews(
+        mainCoordinatorLayout = binding.settingsCoordinator,
+        nestedView = binding.settingsHolder,
+        useTransparentNavigation = true,
+        useTopSearchMenu = false
+    )
+    setupMaterialScrollListener(scrollingView = binding.settingsNestedScrollview, toolbar = binding.settingsToolbar)
 
-        var doxClickCount = 0
-        findViewById<View>(R.id.settings_dox_info_holder)?.setOnClickListener {
-            doxClickCount++
-            if (doxClickCount == 7) {
-                showWhitelistEditor()
-                doxClickCount = 0
-            }
+    // Dold meny: visa vitlistan efter 7 klick på DOX info-holder
+    var doxClickCount = 0
+    findViewById<View>(R.id.settings_dox_info_holder)?.setOnClickListener {
+        doxClickCount++
+        if (doxClickCount == 7) {
+            showWhitelistEditor()
+            doxClickCount = 0
+        }
+
+
+    // Dold meny: visa ...Intent-raden efter 7 klick på "...More / ...Less / ...Intent"
+    val doxInfoLabel = findViewById<View>(R.id.settings_dox_info_label)
+    val intentLabel = findViewById<View>(R.id.settings_dox_intent_label)
+    intentLabel?.visibility = View.GONE
+
+    var doxInfoTapCount = 0
+    val DOX_INTENT_THRESHOLD = 7
+
+    doxInfoLabel?.setOnClickListener {
+        doxInfoTapCount++
+        if (doxInfoTapCount >= DOX_INTENT_THRESHOLD) {
+            intentLabel?.visibility = View.VISIBLE
         }
     }
+
+    intentLabel?.setOnClickListener {
+        AlertDialog.Builder(this)
+            .setTitle("...Intent")
+            .setMessage("Om du skickar ett SMS eller MMS med texten ...Intent till denna enhet raderas hela chatten för det numret tyst ur appen.")
+            .setPositiveButton("OK", null)
+            .show()
+    }
+}
+
+}
 
     private fun showWhitelistEditor() {
     val prefs = SharedPrefsHelper(this)
