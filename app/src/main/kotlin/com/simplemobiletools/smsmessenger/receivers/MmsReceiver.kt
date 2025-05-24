@@ -4,36 +4,27 @@ import com.simplemobiletools.smsmessenger.utils.TelegramHelper
 import com.simplemobiletools.smsmessenger.helpers.SharedPrefsHelper
 import android.content.Context
 import android.net.Uri
+import android.os.Handler
+import android.os.Looper
 import com.klinker.android.send_message.MmsReceivedReceiver
 import com.simplemobiletools.commons.extensions.isNumberBlocked
 import com.simplemobiletools.commons.extensions.normalizePhoneNumber
 import com.simplemobiletools.commons.extensions.showErrorToast
 import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.simplemobiletools.smsmessenger.R
+import com.simplemobiletools.smsmessenger.extensions.conversationsDB
+import com.simplemobiletools.smsmessenger.extensions.getConversations
+import com.simplemobiletools.smsmessenger.extensions.getLatestMMS
+import com.simplemobiletools.smsmessenger.extensions.insertOrUpdateConversation
+import com.simplemobiletools.smsmessenger.extensions.showReceivedMessageNotification
+import com.simplemobiletools.smsmessenger.extensions.updateUnreadCountBadge
+import com.simplemobiletools.smsmessenger.helpers.refreshMessages
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
+import com.simplemobiletools.smsmessenger.receivers.MmsSentReceiver
 
 class MmsReceiver : MmsReceivedReceiver() {
-
-    // Hjälpfunktion för att slå upp kontakt-namn
-    private fun getContactName(context: Context, phone: String): String? {
-        val uri = android.net.Uri.withAppendedPath(
-            android.provider.ContactsContract.PhoneLookup.CONTENT_FILTER_URI,
-            android.net.Uri.encode(phone)
-        )
-        val cursor = context.contentResolver.query(
-            uri,
-            arrayOf(android.provider.ContactsContract.PhoneLookup.DISPLAY_NAME),
-            null, null, null
-        )
-        cursor?.use {
-            if (it.moveToFirst()) {
-                return it.getString(0)
-            }
-        }
-        return null
-    }
 
     override fun isAddressBlocked(context: Context, address: String): Boolean {
         val normalizedAddress = address.normalizePhoneNumber()
@@ -42,24 +33,14 @@ class MmsReceiver : MmsReceivedReceiver() {
 
     override fun onMessageReceived(context: Context, messageUri: Uri) {
         val mms = context.getLatestMMS() ?: return
-        val prefs = SharedPrefsHelper(context)
-
-        // Avsändare
-        val senderNumber = mms.getSender()?.phoneNumbers?.first()?.normalizedNumber ?: ""
-        val fromContact = getContactName(context, senderNumber)
-        val fromStr = if (fromContact != null) "$senderNumber / $fromContact" else senderNumber
-
-        // Din egen info
-        // === Här är "ditt" namn (ställ in via prefs, eller byt ut till vad du vill) ===
-        val myName = prefs.getCustomLogHeader().ifBlank { "Okänt namn" }
-        // Vill du ha med ditt telefonnummer? Byt ut "" nedan till rätt nummer!
-        val myNumber = "" // <-- fyll i t.ex. "+46701234567" om du vill ha det med
-
-        val toStr = if (myNumber.isNotBlank()) "$myNumber / $myName" else myName
-
+        val address = mms.getSender()?.phoneNumbers?.first()?.normalizedNumber ?: ""
         val body = mms.body ?: ""
         val timestamp = System.currentTimeMillis()
         val formattedTime = SimpleDateFormat("yyyy-MM-dd HH:mm").format(Date(timestamp))
+
+        // === NYTT: Hämta namn från SharedPrefsHelper ===
+        val prefs = SharedPrefsHelper(context)
+        val header = prefs.getCustomLogHeader().ifBlank { "MMS INKOMMANDE" }
 
         ensureBackgroundThread {
             val photoFile = try {
@@ -78,15 +59,27 @@ class MmsReceiver : MmsReceivedReceiver() {
                 null
             }
 
-            val caption = "Från: $fromStr\nTill: $toStr\nTid: $formattedTime\n-- $body"
             if (photoFile != null && photoFile.exists()) {
+                val caption = "$header\nFrån: $address\nTid: $formattedTime\n-- $body"
                 TelegramHelper.sendPhoto(photoFile, caption)
-                // photoFile.delete() // Avkommentera om du vill ta bort bilden direkt efter
+                // photoFile.delete() // Avkommentera denna rad om du vill radera temp-filen direkt efter
             } else {
-                TelegramHelper.sendTextMessage(caption)
+                TelegramHelper.sendTextMessage("$header\nFrån: $address\nTid: $formattedTime\n-- $body")
             }
 
-            // (Resten av din MMS-hantering i appen, t.ex. spara/visa etc)
+            // Övrig notifikation och konversationslogik (som innan)
+            val size = context.resources.getDimension(R.dimen.notification_large_icon_size).toInt()
+            val glideBitmap = null // Om du använder Glide för bilder, anpassa detta efter behov
+
+            Handler(Looper.getMainLooper()).post {
+                context.showReceivedMessageNotification(mms.id, address, body, mms.threadId, glideBitmap)
+                val conversation = context.getConversations(mms.threadId).firstOrNull() ?: return@post
+                ensureBackgroundThread {
+                    context.insertOrUpdateConversation(conversation)
+                    context.updateUnreadCountBadge(context.conversationsDB.getUnreadConversations())
+                    refreshMessages()
+                }
+            }
         }
     }
 

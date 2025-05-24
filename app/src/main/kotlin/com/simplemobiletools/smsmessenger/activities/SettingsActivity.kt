@@ -148,7 +148,6 @@ class SettingsActivity : SimpleActivity() {
         setupUseRecycleBin()
         setupEmptyRecycleBin()
         setupAppPasswordProtection()
-        setupMessagesExport()
         setupMessagesImport()
         setupDisableSendButtonToggle()
         updateTextColors(binding.settingsNestedScrollview)
@@ -184,13 +183,7 @@ class SettingsActivity : SimpleActivity() {
         }
     }
 
-    private fun setupMessagesExport() {
-        binding.settingsExportMessagesHolder.setOnClickListener {
-            ExportMessagesDialog(this) { fileName ->
-                saveDocument.launch(fileName)
-            }
-        }
-    }
+
 
     private fun setupMessagesImport() {
         binding.settingsImportMessagesHolder.setOnClickListener {

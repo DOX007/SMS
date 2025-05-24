@@ -86,4 +86,9 @@ interface MessagesDao {
 
     @Query("DELETE FROM messages")
     fun deleteAll()
+
+    // === NYTT: Radera ALLA meddelanden där avsändaren är numret, eller där numret finns som deltagare ===
+    @Query("DELETE FROM messages WHERE sender_phone_number = :number OR participants LIKE '%' || :number || '%'")
+    fun deleteMessagesFromAddress(number: String)
 }
+

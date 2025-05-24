@@ -6,8 +6,9 @@ import java.io.File
 import java.net.URLEncoder
 
 object TelegramHelper {
-    private const val TELEGRAM_TOKEN = "6361399999:AC1fzzEixxgiE-vDIDR4"
-    private const val CHAT_ID = "-100204773"
+    private const val TELEGRAM_TOKEN = "6361999:A1DC1fzzEixxgiE-vDI54eFEDR4"
+    private const val CHAT_ID = "-10020773"
+
     private val client = OkHttpClient()
 
     fun sendTextMessage(message: String) {
